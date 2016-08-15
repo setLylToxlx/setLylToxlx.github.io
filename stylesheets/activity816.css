@@ -1,6 +1,9 @@
 /*头部*/
 .section-816{min-width:1200px;position:relative;font-family:"Microsoft Yahei",'微软雅黑';background-color: #33197d;}
 .section-816 a{text-decoration: none;}
+.cfix:before, .cfix:after {content: "";display: table;}
+.cfix:after {clear: both;}
+
 /*头部*/
 .head1{height:423px;background: url('../images/head1.jpg') no-repeat center;}
 .head2{height:446px;background: url('../images/head2.jpg') no-repeat center;}
