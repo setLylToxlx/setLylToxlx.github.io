@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>title</title>
+	<script type="text/javascript" src="../jquery-1.11.3/jquery.min.js"></script>
+	<script type="text/javascript" src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+</head>
+<body>
+	<div class="share">
+		<span>分享到微信</span>
+	</div>
+
+	<script type="text/javascript">
+		
+	</script>
+</body>
+</html>
