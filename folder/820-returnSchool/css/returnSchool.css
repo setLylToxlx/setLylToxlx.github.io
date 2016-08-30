@@ -1,0 +1,51 @@
+/*公共*/
+.return-school{min-width: 320px;width:100%;height:100%;background: url('../images/bg.jpg') repeat-y  center;font-family: 微软雅黑,'Microsoft YaHei'}
+.text-over{white-space: nowrap;text-overflow: ellipsis;overflow: hidden;padding: 0 10px;}
+/*头部*/
+.head1{height:240px;background: url('../images/head1.jpg') no-repeat center;}
+.head2{height:228px;background: url('../images/head2.jpg') no-repeat center;}
+/*floor1*/
+.content1{margin:0 auto;width:1200px;}
+.content1 .ticket{width:100%;height:726px;background:url('../images/ticket.jpg') no-repeat center;}
+.content1 .ticket-box{margin-bottom:26px;}
+.content1 .ticket li{width:33.33%;float:left;list-style:none;height:242px;cursor:pointer;}
+.content1 .ticket li a{display:block;background-color:#000;}
+.floor1 .title1{margin: 24px auto 14px;height:99px;background: url('../images/title1.png') no-repeat center;}
+/*floor2*/
+.floor2 .title2{margin: 24px auto 14px;height:102px;background:url('../images/title2.png') no-repeat center;}
+.floor2 .content2{margin:0 auto;width:1200px;}
+.scene{margin:0 auto 30px;width:1200px;height:520px;}
+.floor2 .phone-box{width:1200px;height:1330px;background:url('../images/contentBg1.jpg') no-repeat center;}
+.phone-list{margin:90px auto 0;padding-left:10px;width:1010px;}
+.phone-list li{float:left;margin-bottom:10px;}
+.phone-list .phone-item{margin-right:10px;float:left;width:240px;height:376px;background-color:#fff;text-align: center;}
+.phone-list .phone-item a{display:block;text-decoration: none;}
+.phone-list .phone-item .phone-img{margin:10px;}
+.phone-list .phone-item .img-bottom{border-bottom:1px dashed #d7d7d7;}
+.phone-list .phone-item .phone-name{margin:0 auto;width:220px;font-size:16px;line-height:30px;color:#222;font-weight: 600;}
+.phone-list .phone-item .phone-info{margin:0 auto;width:220px;font-size:14px;color:#999;}
+.phone-list .phone-item .phone-price{margin:0 auto;font-size:14px;color:#e70000;text-align: center;}
+.phone-list .phone-item .phone-price .price{font-size:30px;font-weight: 600;}
+.phone-list .phone-item .phone-btn{position:relative;height:40px;width:240px;background-color:#e70000;font-size:18px;color:#fff;line-height: 40px;text-align: center;font-weight: 600;}
+.phone-list  .pro1{display:block;margin-right:10px;}
+.phone-list .phone-item .phone-btn img{display:block;position:absolute;top:0;right:0;}
+/*floor3*/
+.floor3 .title3{margin: 24px auto 14px;height:102px;background:url('../images/title3.png') no-repeat center;}
+.floor3 .content3{margin:0 auto;width:1200px;}
+.floor3 .phone-box{width:1200px;height:941px;background:url('../images/contentBg2.jpg') no-repeat center;}
+/*floor4 floor5*/
+.floor2 .title4{margin: 24px auto 14px;height:102px;background:url('../images/title4.png') no-repeat center;}
+.floor3 .title5{margin: 24px auto 14px;height:102px;background:url('../images/title5.png') no-repeat center;}
+.top{display:block;height:251px;background: url('../images/top.jpg') no-repeat center;}
+
+/*nav*/
+.nav{position:fixed;top:50%;right:0;margin-top:-217px;height:435px;width:136px;background: url('../images/nav.png') no-repeat center;}
+.nav .nav-list{padding-top:152px;height:270px;width:136px;}
+.nav .nav-list .nav-item{display:block;width:136px;height:46px;}
+.nav .nav-list .nav-item:first-child{height:40px;}
+.nav .nav-list .nav1{padding:1px 0 0 2px;background: url('../images/nav-two.png') no-repeat;background-position: 8px 2px;}
+.nav .nav-list .nav2{background: url('../images/nav-two.png') no-repeat;background-position: 6px -52px;}
+.nav .nav-list .nav3{background: url('../images/nav-two.png') no-repeat;background-position: 6px -110px;}
+.nav .nav-list .nav4{height:45px;background: url('../images/nav-two.png') no-repeat;background-position: 6px -170px;}
+.nav .nav-list .nav5{height:44px;background: url('../images/nav-two.png') no-repeat;background-position: 8px -231px;}
+.nav .nav-list .nav6{height: 45px;position: relative;top: -1px;background: url('../images/nav-two.png') no-repeat;background-position: 6px -288px;}

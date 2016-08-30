@@ -1,0 +1,99 @@
+/**
+* muiToolBar document
+*/
+
+/* ä¾§è¾¹æµ®å±‚ */
+#mui_bar {position:fixed; right:0; top:0; height:100%; width:36px; background:#272b43; _position:absolute; _top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight)); z-index:99999}
+#mui_bar .mui_bar_con {position:absolute; top:25%; bottom:0; width:36px;}
+
+/* ç”¨æˆ·ä¿¡æ¯ */
+#mui_bar .userArea {position:relative;padding:10px 0 0; height:36px; width:36px; z-index:2000;}
+#mui_bar .login_in_pannel,
+#mui_bar .login_up_pannel {height:36px; width:36px;}
+
+#mui_bar .login_in,
+#mui_bar .login_up {position:absolute; top:0; border:1px solid #e2e7ee; box-shadow:-3px 3px 5px -2px rgba(55,55,55,0.4);z-index:2000;}
+
+/*æ–°äººä¸“äº«*/
+#mui_bar .newuser{position: relative;*zoom:1;padding:10px 0; border-bottom: 1px solid #515d76; z-index:2000;}
+#mui_bar .newuserRemindIcon{display: block;width:36px;height:36px;background:url(http://s.hqbcdn.com/assets/v4/images/process/right_nav_sprites.png) 0px -255px no-repeat;}
+#mui_bar .newuserRemindIcon:hover{background-color: #e10108;}
+#mui_bar .temptToRegister{display: none;position: absolute;top:-50%;left:-243px;width:243px;height:152px;text-indent: -1000em;background: url(http://s.hqbcdn.com/assets/v4/images/newindex/promo.png) 0 0 no-repeat;}
+
+/* å·²ç™»å½•çŠ¶æ€ */
+#mui_bar .login_in_i {position:relative; display:block; height:36px; width:36px; text-align:center;}
+#mui_bar .login_in_i .u_mask {position:absolute; top:0; left:50%; width:36px; height:36px; margin-left:-15px; }
+#mui_bar .login_in_i .user_avatar{ border-radius:50%;}
+#mui_bar .login_in {left:-232px; width:210px; padding:10px 10px 20px 10px; background:#FFF url(http://s.hqbcdn.com/assets/v4/images/newindex/login_in_bg.jpg) no-repeat 100% 0;}
+#mui_bar .login_out {position:absolute; right:10px; top:10px; color:#999;}
+#mui_bar .login_in .u_head {float:left; position:relative; width:80px; height:80px; margin-top:12px;margin-right:10px;}
+#mui_bar .login_in .u_mask {position:absolute; top:0; left:0; width:100%; height:100%; background:url(http://s.hqbcdn.com/assets/v4/images/newindex/head_80.png);}
+#mui_bar .u_info {margin-top:17px; overflow:hidden; zoom:1;}
+#mui_bar .u_info .u_name {margin:5px 0;}
+#mui_bar .u_info .u_name_link {color: #1a99ce;}
+#mui_bar .u_info .u_coin b {color:#c10000;}
+#mui_bar .buttons {clear:both; height:26px;}
+#mui_bar .buttons a {float:left; width:60px; margin:0 4px; line-height:24px; text-align:center; border:1px solid #e2e7ee; color:#206eef;}
+#mui_bar .buttons a:hover {text-decoration:none; color:#c10000;}
+    /* ç­¾åˆ° */
+#mui_bar .signIn{display: block;width:40px; height:16px;padding:0px 1px;margin-top:7px;text-align:center;line-height:14px;background-color:#ff8400; color: #ffffff; font-size: 12px; border-radius: 2px;text-decoration:none}
+#mui_bar .signIn:hover{color: #ffffff; text-decoration: none}
+/* æœªç™»å½•çŠ¶æ€ */
+#mui_bar .login_up_i {display:block; height:36px; width:36px; background:url(http://s.hqbcdn.com/assets/v4/images/process/right_nav_sprites.png) no-repeat left top;}
+#mui_bar .login_up_i:hover{ background-color:#e10108;}
+#mui_bar .login_up {left:-342px; width:270px; padding:15px 35px; background:#FFF; z-index:2000;}
+#mui_bar .f_input {display:block; height:18px; width:260px; margin:5px 0 10px; padding:5px; line-height:18px; border:1px solid #e2e7ee;}
+#mui_bar .sub_btn {display:block; width:270px; height:30px; margin-top:15px; line-height:30px; text-align:center; color:#FFF; background:#206eef; border:0;}
+#mui_bar .sub_btn:hover {text-decoration:none; opacity:0.8; filter:alpha(opacity=80);}
+#mui_bar .f_tips {display:none;}
+#mui_bar .f_tip_error {color:#c10000;}
+#mui_bar .forgetpwd {margin-top:5px; text-align:right;}
+#mui_bar .forgetpwd a {color:#206eef;}
+/* è´­ç‰©è½¦ */
+#mui_bar .miniCart {position:relative; width:36px; height:126px; margin:8px 0 20px 0; z-index:4; text-align:center;}
+#mui_bar .miniCart:hover{ background-color:#f91838;}
+#mui_bar .cart {position:absolute; left:6px;  width:24px; padding:13px 0px 20px 0; height:104px; color:#fff; font-size:14px; border-top:1px solid #515d76;border-bottom:1px solid #515d76; text-decoration:none;}
+#mui_bar .cart:hover { border-color:#e10108;}
+#mui_bar .cart_icon{ display:block; width:28px; height:26px; background:url(http://s.hqbcdn.com/assets/v4/images/process/right_nav_sprites.png) -7px -220px;}
+#mui_bar .cart_num {display:block; width:23px; height:23px; margin-right:5px;font-weight:700; text-align:center; color:#fff; border-radius:50%; background-color:#e10108;}
+
+#mui_bar .cart_list_box{ position:relative; overflow:hidden; border-bottom:1px solid #f0f0f0; }
+#mui_bar .cart_con li,
+#mui_bar .goods_info {overflow:hidden; zoom:1;}
+#mui_bar .cart_con li {padding:15px 0; border-bottom:1px solid #f0f0f0;}
+#mui_bar .goods_pic {float:left; width:70px; height:70px; line-height:70px; border:1px solid #f0f0f0; margin-right:10px; text-align:center;}
+#mui_bar .goods_tit {display:block; height:36px; overflow:hidden;}
+#mui_bar .goods_num{ margin-top:15px;}
+#mui_bar .cart_con .price,
+#mui_bar .mini_total b {color:#fd2b4d; font-family:'Microsoft YaHei'; font-weight:bold;}
+#mui_bar .cart_tips { padding:20px; font-size:14px;}
+#mui_bar .miniCart .loading_tips {padding-left:70px; background:url(http://s.hqbcdn.com/assets/v1/images/loading.gif) 40px 50% no-repeat;}
+#mui_bar .cart_tips a {margin:0 5px; color:#206eef;}
+
+
+/* æ–°è´­ç‰©è½¦ */
+#mui_bar .cart_con_box{display:none;position:absolute; right:35px; padding:15px;height:100%; background-color:#fff; padding-left:10px; box-shadow:-4px 0px 2px #b2b2b2;z-index:100;}
+#mui_bar .cart_con_box h2{ width:250px; line-height:35px; border-bottom:1px solid #dedcdc; font-size:14px;}
+#mui_bar .cart_con_box h2 i{ color:#fd2b4d;}
+#mui_bar .nav_car_times{ font-size:12px; margin-left:10px;}
+#mui_bar .cart_con_box .nav_car_close{ display:inline-block; float:right; margin:8px 10px 0 0; width:18px; height:18px; cursor:pointer; background:url(http://s.hqbcdn.com/assets/v4/images/process/right_nav_sprites.png) left -153px;}
+#mui_bar .car_list_total{ padding:10px 0; margin-top:20px; background-color:#FFFFFF;}
+#mui_bar .car_list_total span{ display:inline-block; height:35px; width:80px;}
+#mui_bar .car_total_price{font-family:'Microsoft YaHei'; color:#fd2b4d;}
+#mui_bar .car_total_price_i{ font-weight:bold;}
+#mui_bar .car_total_num{color:#8d8d8d; font-weight:normal;}
+#mui_bar .car_list_total a{ display:inline-block; float:right; height:36px; line-height:36px; width:130px; background-color:#fd2b4d; border-radius:3px; color:#fff; text-align:center; }
+/* å®¢æœ æ–°æ”¹20151231*/
+#mui_bar .kfPannel{position: relative;}
+#mui_bar .kfPannel a {position:absolute;z-index:1200;display:block; height:36px; width:36px; overflow:hidden;  background:url(http://s.hqbcdn.com/assets/v4/images/process/right_nav_sprites.png) no-repeat left -36px;}
+.nav-contact-kfNew{padding:34px 12px 0;width: 12px;font-size:12px;;color:#fff;text-align: center;cursor: pointer;}
+/* è¿”å›žé¡¶éƒ¨ */
+#mui_bar .scrollTop { display:none;position:absolute; bottom:30%; width:100%;}
+#mui_bar .scrollTop a {display:block; width:36px; height:36px;background:url(http://s.hqbcdn.com/assets/v4/images/process/right_nav_sprites.png) no-repeat left -114px;}
+#mui_bar .scrollTop a:hover { background-color:#f91838;}
+
+/*! perfect-scrollbar - v0.5.8
+* http://noraesae.github.com/perfect-scrollbar/
+* Copyright (c) 2014 Hyunje Alex Jun; Licensed MIT */
+
+.ps-container.ps-active-x>.ps-scrollbar-x-rail,.ps-container.ps-active-y>.ps-scrollbar-y-rail{display:block}.ps-container>.ps-scrollbar-x-rail{display:none;position:absolute;-webkit-border-radius:4px;-moz-border-radius:4px;-ms-border-radius:4px;border-radius:4px;opacity:0;-ms-filter:"alpha(Opacity=0)";filter:alpha(opacity=0);-webkit-transition:background-color .2s linear,opacity .2s linear;-moz-transition:background-color .2s linear,opacity .2s linear;-o-transition:background-color .2s linear,opacity .2s linear;transition:background-color .2s linear,opacity .2s linear;bottom:3px;height:8px}.ps-container>.ps-scrollbar-x-rail>.ps-scrollbar-x{position:absolute;background-color:#aaa;-webkit-border-radius:4px;-moz-border-radius:4px;-ms-border-radius:4px;border-radius:4px;-webkit-transition:background-color .2s linear;-moz-transition:background-color .2s linear;-o-transition:background-color .2s linear;transition:background-color .2s linear;bottom:0;height:8px}.ps-container>.ps-scrollbar-x-rail.in-scrolling{background-color:#eee;opacity:.9;-ms-filter:"alpha(Opacity=90)";filter:alpha(opacity=90)}.ps-container>.ps-scrollbar-y-rail{display:none;position:absolute;-webkit-border-radius:4px;-moz-border-radius:4px;-ms-border-radius:4px;border-radius:4px;opacity:0;-ms-filter:"alpha(Opacity=0)";filter:alpha(opacity=0);-webkit-transition:background-color .2s linear,opacity .2s linear;-moz-transition:background-color .2s linear,opacity .2s linear;-o-transition:background-color .2s linear,opacity .2s linear;transition:background-color .2s linear,opacity .2s linear;right:3px;width:8px}.ps-container>.ps-scrollbar-y-rail>.ps-scrollbar-y{position:absolute;background-color:#aaa;-webkit-border-radius:4px;-moz-border-radius:4px;-ms-border-radius:4px;border-radius:4px;-webkit-transition:background-color .2s linear;-moz-transition:background-color .2s linear;-o-transition:background-color .2s linear;transition:background-color .2s linear;right:0;width:8px}.ps-container>.ps-scrollbar-y-rail.in-scrolling{background-color:#eee;opacity:.9;-ms-filter:"alpha(Opacity=90)";filter:alpha(opacity=90)}.ps-container:hover>.ps-scrollbar-x-rail,.ps-container:hover>.ps-scrollbar-y-rail{opacity:.6;-ms-filter:"alpha(Opacity=60)";filter:alpha(opacity=60)}.ps-container:hover>.ps-scrollbar-x-rail.in-scrolling,.ps-container:hover>.ps-scrollbar-y-rail.in-scrolling{background-color:#eee;opacity:.9;-ms-filter:"alpha(Opacity=90)";filter:alpha(opacity=90)}.ps-container:hover>.ps-scrollbar-x-rail:hover{background-color:#eee;opacity:.9;-ms-filter:"alpha(Opacity=90)";filter:alpha(opacity=90)}.ps-container:hover>.ps-scrollbar-x-rail:hover>.ps-scrollbar-x{background-color:#999}.ps-container:hover>.ps-scrollbar-y-rail:hover{background-color:#eee;opacity:.9;-ms-filter:"alpha(Opacity=90)";filter:alpha(opacity=90)}.ps-container:hover>.ps-scrollbar-y-rail:hover>.ps-scrollbar-y{background-color:#999}

@@ -1,0 +1,31 @@
+/*公共*/
+.yhq{min-width:1200px;padding-bottom:100px;font-family:"Microsoft YaHei",'微软雅黑';background-color: #c82625;}
+.yhq .text-over{white-space: nowrap;text-overflow: ellipsis;overflow: hidden;padding: 0 10px;}
+/*head*/
+.head{height:526px;background: url('../images/head.jpg') no-repeat center;}
+
+/*优惠券*/
+.floor-ticket{margin:0 auto;width:1050px;}
+.floor-ticket .ticket-box{width:1050px;}
+.floor-ticket li{margin-bottom:30px;width:1050px;height:308px;list-style: none;}
+.floor-ticket .ticket-1{background: url('../images/ticket_01.jpg') no-repeat center;}
+.floor-ticket .ticket-2{background: url('../images/ticket_02.jpg') no-repeat center;}
+.floor-ticket .ticket-3{background: url('../images/ticket_03.jpg') no-repeat center;}
+.floor-ticket .ticket{float:left;width:50%;height:308px;cursor: pointer;}
+
+/*商品列表*/
+.floor-product .floor-title{height:119px;background-color:#ab1a19;background: url('../images/floor_01.jpg') no-repeat center;}
+.floor-product .phone-box{margin:50px auto 0;width:1030px;border:10px solid #f2643e;background-color: #f6f6f6;}
+.floor-product .phone-list{margin:40px auto 30px;padding-left:20px;width:870px;}
+.floor-product .phone-list li{width:270px;margin:0 20px 15px 0;float:left;text-align: center;background-color: #fff;}
+.floor-product .phone-list a,.floor-product .phone-list a:hover{display:block;text-decoration: none;}
+.floor-product .phone-img{margin:5px 10px;}
+.floor-product .img-border{border-bottom: 1px dashed #cacaca;}
+.floor-product .phone-name{font-size: 18px;color:#222;}
+.floor-product .phone-info{font-size: 13px;color:#999;}
+.floor-product .phone-price{font-size: 13px;color:#e70000;}
+.floor-product .phone-price span{font-size: 14px;font-weight:600;}
+.floor-product .phone-price b{font-size: 27px;}
+.floor-product .phone-btn{*position:relative;height:40px;width:270px;background-color:#e70000;color:#fff;font-weight:600;}
+.floor-product .phone-btn span{font-size:20px;line-height: 40px;}
+.floor-product .phone-btn img{*position:absolute;*right:0;*top:0;float:right;}

@@ -1,0 +1,74 @@
+* {
+    tap-highlight-color: rgba(0,0,0,0);
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -ms-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/*@media all and (max-width: 480px) {*/
+/*html {font-size: 20%;}*/
+/*}*/
+/*@media all and (max-width: 640px) {*/
+/*html {font-size: 62.5%;}*/
+/*}*/
+
+.weekend a{cursor: pointer;}
+.head img{display: block;vertical-align: bottom;}
+.weekend{position: relative;max-width: 640px;min-width: 320px;height: 100%;background-color: #ffdb60;font-family: "Microsoft Yahei";font-size: 62.5%;}
+
+/*导航*/
+.nav-fix{position: fixed;left:0;top: 0;width: 100%;background-color: #e36102;padding: 10px 0 !important;z-index: 999;}
+.nav-fix ul{list-style: none;margin:0 2%;}
+.nav-fix ul li{float: left;width: 25%;text-align: center;font-size: 12px;background-color:#ffe539;}
+.nav-fix ul li p{margin: 0 auto;padding: 20px 0;font-weight:600;color: #444444;}
+.nav-fix ul li:nth-child(1){border-top-left-radius: 10px;border-bottom-left-radius: 10px;}
+.nav-fix ul li:nth-child(1) p{border-right: 1px solid #f5bf2a;}
+.nav-fix ul li:nth-child(2) p{border-right: 1px solid #f5bf2a;}
+.nav-fix ul li:nth-child(4){border-top-right-radius: 10px;border-bottom-right-radius: 10px;}
+.nav-fix ul li:nth-child(4) p{border-left: 1px solid #f5bf2a;}
+
+.nav{width: 100%;padding: 10px 0;background-color: #e36102;z-index: 999;}
+.nav ul{list-style: none;margin: 0 2%;}
+.nav1,.nav2,.nav3,.nav4{float: left;width: 25%;text-align: center;font-size: 12px;background-color:#ffe539;}
+.nav ul li p{margin: 0 auto;padding: 10px 0;font-weight:600;color: #444444;}
+.nav ul li:nth-child(1){border-top-left-radius: 10px;border-bottom-left-radius: 10px;}
+.nav ul li:nth-child(1) p{border-right: 1px solid #f5bf2a;}
+.nav ul li:nth-child(2) p{border-right: 1px solid #f5bf2a;}
+.nav ul li:nth-child(4){border-top-right-radius: 10px;border-bottom-right-radius: 10px;}
+.nav ul li:nth-child(4) p{border-left: 1px solid #f5bf2a;}
+
+.nav ul li.nav-active{background-color:#ffb401;}
+
+.box-flex{-moz-box-flex: 1;}
+/*手机展示框*/
+.phone-box{margin: 0 1.6%;width: 96.8%;}
+.title{width:100%;padding: 14px 0;}
+.phone-list{width:100%;list-style: none;overflow: hidden;text-align: center;}
+.phone-list li{position:relative;margin-bottom: 2%; background-color: #fff;}
+.phone-list li a p:nth-child(2){display: block;  width: 100%;  font-size: 14px;  color: #fff;  font-weight: 600;  text-align: center;  white-space: nowrap;  text-overflow: ellipsis;  -o-text-overflow: ellipsis;  background-color: #767676;  overflow: hidden;padding: 0 9px;}
+.phone-list li a p:nth-child(3){display: block;width: 92%; margin: 3% 4% 0 4%;  font-size: 12px;text-align: left; overflow: hidden;text-overflow: ellipsis;
+    white-space: nowrap;}
+.phone-list li span:nth-child(2){display: inline-block; font-size: 12px;  color: #e70000;}
+.phone-list li b:nth-child(3){font-size: 20px; color: #e70000;}
+.phone-list li a:nth-child(4){display: block;margin: 1% 7% 4% 7%;  /* padding: 10px 0; */  border-radius: 5px;  width: 86%;  color: #fff;  font-size: 13px;  font-weight: 600;  text-align: center;  background-color: #eb1303;height: 30px;line-height: 30px;}
+.phone-list li a:nth-child(4) span{/* font-size: 18px; */}
+.phone-list li{width: 49%;}
+.phone-list li:nth-of-type(2n+1){float: left;}
+.phone-list li:nth-of-type(2n+2){float: right;}
+.big-tag{position:absolute;top: 0;left:0;width: 57px;height: 85px;background: url('../images/bigtag.png') no-repeat; background-size: contain}
+.big-tag p{/* height: 18px; */line-height: 16px;color: #fff;}
+.big-tag p:nth-child(1){margin: 3px auto;width: 60%;height: 20px;line-height: 20px;border-bottom: #fff 1px solid;font-weight: 600;text-align: center;font-size: 12px;}
+.big-tag p:nth-child(2){margin-top: 0px;font-size: 12px;}
+.tag{position:absolute;top: 0;left:0;width:57px;height:85px;background: url('../images/tag.png') no-repeat; background-size: contain}
+.tag p{height: 12px;color: #fff;}
+.tag p:nth-child(1){margin-top:15px;font-size: 12px;text-align: center;margin-bottom: 5px;}
+.small-tag{position:absolute;top: 0;left:0;width:50px;height:55px;background: url('../images/tag.png') no-repeat; background-size: contain}
+.small-tag p{color: #fff;font-size: 14px;padding: 14px 0;}
+.next-week{display: block;position: absolute;top: 0;left: 0;margin: 21%;}
+/*底部*/
+.back{background-color: #ffdb60; text-align: center}
+.back a{display: block; margin: 0 auto}

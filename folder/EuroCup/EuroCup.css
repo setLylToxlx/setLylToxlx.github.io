@@ -1,0 +1,255 @@
+body{
+    min-width: 1000px;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+ .dt3{
+     display: block;
+     position: relative;
+     padding: 0;
+     margin: 0;
+}
+ /*开始图片*/
+.euronav{
+
+}
+
+/*竞猜*/
+.euroguess{
+    position: relative;
+    height: 1341px;
+    width: 100%;
+    background: url("images/guessbg1.jpg") no-repeat center;
+}
+.guesstitle{
+    height: 163px;
+    width: 100%;
+    background: url('images/guess.png') no-repeat center;
+    background-color: #1e7d1b;
+}
+.guesscontent{
+    height: 1000px;
+}
+.guessteam{
+    width: 100%;
+    height: 225px;
+}
+.teamcontainer{
+    position: relative;
+    margin: 0 auto;
+    width: 600px;
+    margin-top: 530px
+}
+.teamone{
+    float: left;
+    text-align: center;
+}
+.teamone p,.teamtwo p{
+    margin: 10px auto;
+    padding: 10px 0;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+.teampk{
+    float: left;
+    padding: 50px 0;
+}
+.teamtwo{
+    float: left;
+    text-align: center;
+}
+.vote{
+    height:20px;
+    width: 90%;
+    border-radius: 20px;
+    background-color: #f30111;
+}
+.guessexplain{
+    width: 100%;
+    margin-top: 48px;
+}
+.explaincontainer{
+    margin: 0 auto;
+    width: 1000px;
+    height: 200px;
+    background-color: #19701a;
+}
+.explaincontainer h3{
+    clear: both;
+    padding: 25px 10px 6px 20px;
+    color: #d9d9d9;
+}
+.explaincontainer p{
+    clear: both;
+    padding: 2px 10px 2px 20px;
+    color: #8ca88d;
+}
+.guessshare{
+    width: 320px;
+    margin: 0 auto;
+    margin-top: 60px;
+    padding: 8px;
+    text-align: center;
+    color: white;
+    font-size: 26px;
+    font-weight: 600;
+    background-color: #f9be0a;
+    border-radius: 18px;
+}
+/*数码产品*/
+.eurodigit{
+    position: relative;
+    top: -6px;
+    height: 1446px;
+    width: 100%;
+    background: url("images/digitbg1.jpg") no-repeat center;
+}
+.digittitle{
+    height: 167px;
+    width: 100%;
+    background: url('images/digit.png') no-repeat center;
+    background-color: #e5960c;
+}
+.circlecontainer{
+    position: relative;
+    margin: 100px auto;
+    width: 1060px;
+    height: 1060px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.digitcircle{
+    background-color: #ffd44a;
+}
+.circle{
+    position: absolute;
+    width: 392px;
+    height: 339px;
+    font-family: '微软雅黑';
+    background: url('images/multilateral.png') no-repeat;
+}
+.circle1{
+    top: 21px;
+    left: 332px;
+}
+.circle2{
+    top: 192px;
+    left: 35px;
+}
+.circle3{
+    top: 193px;
+    left: 630px;
+}
+.circle4{
+    top: 363px;
+    left: 332px;
+}
+.circle5{
+    top: 534px;
+    left: 35px;
+}
+.circle6{
+    top: 705px;
+    left: 332px;
+}
+.circle7{
+    top: 535px;
+    left: 630px;
+}
+.phonebox{
+    text-align: center;
+}
+.digitphoneimg img{
+    width: 200px;
+    height: 200px;
+}
+
+.info-set{
+    font-size: 20px;
+    font-weight: 700;
+}
+.info-title{
+    font-size: 14px;
+}
+.info-price b{
+    font-size: 36px;
+    font-weight: 700;
+    color: #f00823;
+}
+.info-price span{
+    color: #f00823;
+}
+.info-buy{
+    margin: 0 auto;
+    padding: 8px;
+    margin-top: 6px;
+    width: 160px;
+    line-height: 16px;
+    font-size: 16px;
+    font-weight: 800;
+    color: #fbd2d4;
+    background-color: #f00823;
+}
+/*手机区1*/
+.europhone1{
+    position: relative;
+    top: -9px;
+    height: 1445px;
+    width: 100%;
+    background: url("images/phone1bg.jpg") no-repeat center;
+}
+.phone1title{
+    height: 171px;
+    width: 100%;
+    background: url('images/phone1.png') no-repeat center;
+    background-color: #2b25a6;
+}
+.phone1circle{
+    background-color: #4a79ff;
+}
+/*手机区2*/
+.europhone2{
+    position: relative;
+    top: -9px;
+    height: 1448px;
+    width: 100%;
+    background: url("images/phone2bg.jpg") no-repeat center;
+}
+.phone2title{
+    height: 171px;
+    width: 100%;
+    background: url('images/phone2.png') no-repeat center;
+    background-color: #14a244;
+}
+.phone2circle{
+    background-color: #9bebb5;
+}
+/*手机区2*/
+.europhone3{
+    position: relative;
+    top: -12px;
+    height: 1445px;
+    width: 100%;
+    background: url("images/phone3bg.jpg") no-repeat center;
+}
+.phone3title{
+    height: 171px;
+    width: 100%;
+    background: url('images/phone3.png') no-repeat center;
+    background-color: #dd1717;
+}
+.phone3circle{
+    background-color: #e22424;
+}
+/*回到顶部*/
+.totop{
+    position: relative;
+    top: -12px;
+    height: 177px;
+    width: 100%;
+    background: url('images/totop.png') no-repeat center;
+    background-color: #1e7d1b;
+}

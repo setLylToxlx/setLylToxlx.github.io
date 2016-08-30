@@ -1,0 +1,328 @@
+/*公共样式*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Microsoft Yahei";
+}
+.container{
+    margin: 0 auto;
+    min-width: 1200px;
+    background-color: #fab806;
+}
+.content{
+    margin: 0 auto;
+    padding: 0;
+    width: 1200px;
+}
+.content ul{overflow: hidden}
+.content ul li{
+    margin: 4px 4px;
+    display: inline-block;
+    float: left;
+    width: 290px;
+    height: 405px;
+    text-align: center;
+    color: #fff;
+    list-style: none;
+    background-color: #fff;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+img{border: none;}
+.phoneinfo{
+    position: relative;
+    top: -30px;
+}
+.phonename{
+    font-weight: 600;
+    font-size: 22px;
+    background-color: #767676;
+    opacity: 0.95;
+    filter:Alpha(opacity=95);
+}
+.bg1{
+    background-color: #ba46e5;
+}
+.bg2{
+    background-color: #f352b1;
+}
+ .bg3{
+     background-color: #3ebcf7;
+ }
+.saleinfo a{
+    display: block;
+    font-family: "Microsoft Yahei";
+    font-weight: 600;
+}
+.explain{
+    padding: 10px 0 0 0;
+    font-size: 16px;
+}
+.price{
+    padding: 7px 0 0 0;
+}
+.price b{
+    font-size: 30px;
+}
+.buy1{
+    height: 54px;
+    background: url('images/buybutton1.png') no-repeat center;
+}
+.buy2{
+    height: 54px;
+    background: url('images/buybutton2.png') no-repeat center;
+}
+.buy3{
+    height: 54px;
+    background: url('images/buybutton3.png') no-repeat center;
+}
+/*上半部分*/
+.head{
+    width: 100%;
+}
+.headbox1{
+    height: 568px;
+    background: url('images/headbg1.jpg') no-repeat center;
+}
+.headbox2{
+     height: 540px;
+     background: url('images/headbg2.png') no-repeat center;
+}
+.takehome{
+    position:relative;
+    top: 300px;
+    color: #fff;
+}
+.takehome ul{
+    margin: 0 auto;
+    height: 200px;
+    width: 1200px;
+}
+.takehome ul li{
+    margin: 0px 50px 0 70px;
+    float: left;
+    width: 280px;
+    list-style: none;
+}
+.takehome ul li h2{
+    text-align: center;
+    font-size: 26px;
+    padding: 10px 0;
+}
+.takehome ul li p{
+    font-size: 20px;
+}
+.takehome ul li span{
+    position: relative;
+    left: -7px;
+    float: left;
+    font-size: 36px;
+    font-weight: 600;
+    margin-top: 15px;
+}
+.takehome ul li a{
+    display: block;
+    width: 150px;
+    height: 50px;
+    margin: 16px 0 0 144px;
+    outline: none;
+}
+.headbox3{
+    height: 718px;
+    background: url('images/headbg3.png') no-repeat center;
+}
+.answerquestion{
+    margin: 0 auto;
+    position: relative;
+    top: 200px;
+    width: 1200px;
+    height: 500px;
+/*     background: #000;
+    opacity: 0.4; */
+}
+.answerquestion ul{
+    position: relative;
+    top: 100px;
+    width: 600px;
+    margin: 0 auto;
+}
+.answerquestion ul li{
+    float: left;
+    list-style: none;
+    padding: 50px 1px 50px 20px;
+    font-size: 33px;
+    line-height: 2;
+    color: #fff;
+    text-align: center;
+}
+.answerquestion ul li input{
+    vertical-align: middle;
+    width: 40px;
+    height: 40px;
+}
+.nextquestion{
+    z-index: 999;
+    display: inline-block;
+    position: absolute;
+    bottom: 107px;
+    left: 496px;
+    width: 230px;
+    height: 75px;
+    text-align: center;
+    font-size: 40px;
+    line-height: 70px;
+    font-weight: 600;
+}
+.question{
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
+    /* display: block; */
+    /* margin: 100px; */
+    width: 300px;
+    font-size: 40px;
+    color: #fff;
+
+}
+.questiontitle{
+    position: relative;
+    top: 53px;
+    height: 116px;
+    background: url('images/answeraward.jpg') no-repeat center;
+}
+
+.activeexplain{
+    position: relative;
+    top: 50px;
+    margin: 0 auto;
+    width: 700px;
+    height: 250px;
+    color: #fff;
+    font-size: 22px;
+}
+.explain1{
+    padding: 20px 0 5px 50px;
+}
+.explain2,.explain3{
+    padding: 5px 0 5px 160px;
+}
+.activeexplain a{
+    position: relative;
+    left: 243px;
+    top: 19px;
+    display: block;
+    width: 238px;
+    height: 76px;
+    text-align: center;
+    font-size: 36px;
+    line-height: 70px;
+    font-weight: 600;
+}
+/*手机列表部分*/
+.phone{
+    width: 100%;
+}
+.title1{
+    height: 140px;
+    background: url('images/fashionboy.jpg') no-repeat center;
+}
+.title2{
+      height: 140px;
+      background: url('images/princessdream.jpg') no-repeat center;
+  }
+.title3{
+    height: 140px;
+    background: url('images/childrenking.jpg') no-repeat center;
+}
+
+/*回到顶部*/
+.totop{
+    padding: 80px 0;
+    height: 71px;
+    background: url("images/top.png") no-repeat center;
+}
+.totop a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.hide{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 652%;
+    background-color: #000;
+    opacity: 0.8;
+}
+.correct{
+    display: none;
+    position: absolute;
+    top: 1000px;
+    left: 15%;
+    height: 946px;
+    width: 948px;
+}
+.getaward{
+    position: relative;
+    top: -630px;
+    left: 407px;
+    display: block;
+    width: 200px;
+    height: 70px;
+}
+.gotosee{
+    position: relative;
+    top: -203px;
+    left: 500px;
+    display: block;
+    width: 143px;
+    height: 55px;
+}
+.error{
+    display: none;
+    position: absolute;
+    top: 1300px;
+    left: 30%;
+}
+.again{
+    position: relative;
+    top: -147px;
+    left: 222px;
+    display: block;
+    width: 200px;
+    height: 73px;
+}
+.fixednav{
+    position: fixed;
+    top: 300px;
+    right: 60px;
+    height: 556px;
+    width: 157px;
+    background: url('images/fixednav.png') no-repeat;
+}
+.navbox{
+    position: absolute;
+    top: 217px;
+    left: 10px;
+    width: 137px;
+    height: 337px;
+    text-align: center;
+}
+.navbox a{
+    margin: 9px 10px;
+    display: block;
+    height: 45px;
+    line-height: 43px;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: "微软雅黑";
+    color: #dd0101;
+    background-color: #fcac2f;
+}
+.fbe09f{
+    background-color: #fbe09f;
+}

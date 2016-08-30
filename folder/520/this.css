@@ -1,0 +1,90 @@
+/*公共*/
+*{margin: 0;padding: 0;}
+.container{min-width: 1200px;font-family: "Microsoft Yahei";}
+a{text-decoration: none;color:#000;}
+img{border:none}
+/*头部*/
+.h344{height: 344px;background: url("images/head1.jpg") no-repeat center;}
+.h419{height: 419px;background: url("images/head2.jpg") no-repeat center;}
+.h479{height: 479px;background: url("images/head3.jpg") no-repeat center;}
+.head img{vertical-align: bottom;}
+/*游戏部分*/
+.gamebox{position: relative;margin: 0 auto;width: 1200px;height: 330px;}
+.gamepeople{position: absolute;width: 154px;height: 154px;}
+.boy1{right: 280px;top: 6px;background: url('images/boy1.jpg') no-repeat}
+.boy2{right: 280px;top: 162px;background: url('images/boy2.jpg') no-repeat}
+.girl1{right: 124px;top: 6px;background: url('images/girl1.jpg') no-repeat}
+.girl2{right: 124px;top: 162px;background: url('images/girl2.jpg') no-repeat}
+/*内容：撩妹技能部分*/
+.box1{height: 1974px;background: url('images/bg1.jpg') no-repeat center}
+.box1title{margin: 0 auto;height: 372px;width: 1200px;background: url('images/title1.jpg') no-repeat center}
+.box1title ul{position:relative;top: 336px;left: 9px;margin: 0 auto;width: 1000px;height: 28px;list-style: none;}
+.box1title ul li{position: relative;float: left;height: 28px;width: 117px}
+.box1title ul li a{display: block;width: 117px;height: 28px;}
+.m1{margin: 0 84px 0 84px;}
+.m2{margin: 0 100px 0 156px;}
+.m3{margin: 0 80px 0 141px;}
+.content{margin: 0 auto;width: 1200px;}
+.phonebox{position: relative;}
+.phonelist{margin: 60px auto 20px auto;width: 1015px;height:455px;background-color: #f47a9c;}
+.phonelist li{margin: 14px 0 0 14px;width: 320px;list-style: none;float: left;text-align: center;background-color: #fff;}
+.phonelist li a img{padding: 30px 0 0 0;}
+.productname{font-size: 20px;font-weight: 600;color: #fe345e;}
+.productdetail{padding: 8px 0;font-size: 14px;}
+.phonelist li a{display: inline-block;}
+.phonelist li p{background-color: #e93165;}
+.phonelist li p span{display: inline-block;margin-bottom: 7px; color: #ffead7;font-size: 16px;line-height: 36px;}
+.phonelist li p label{display: inline-block;margin: 5px 0;color: #ffdd80;font-size: 20px;vertical-align: top;}
+.phonelist li p b{color: #ffdd80;font-size: 40px;}
+.phonelist li p a{position: relative;top: -8px;margin: 0 11px;padding: 4px 15px;font-size: 15px; color:#b9532e;background-color: #e6d66e;border-radius: 5px;}
+.heartbg1{position: absolute;top:-100px;right:0;width: 156px;height: 201px;background: url('images/strength.png') no-repeat;}
+.heartbg2{position: absolute;top: -60px;width: 168px;height: 157px;;background: url('images/image.png') no-repeat;}
+.heartbg3{position: absolute;top: -60px;right:0;width: 167px;height: 172px;;background: url('images/sincere.png') no-repeat;}
+/*内容：求爱攻略部分*/
+.box2{height: 1571px;background: url('images/bg2.jpg') no-repeat center}
+.box2title{height: 162px;background: url('images/title2.jpg') no-repeat center}
+.h894{height:894px;}
+.strategyproduct{margin: 0 auto;height: 404px;width:1015px;}
+.leftflowers{position: absolute;width:217px;height:156px;background: url('images/leftflowers.jpg') no-repeat}
+.strategyproduct li{position: relative;float: left;margin: 25px 0;width:338px;list-style: none;text-align:center;}
+.productname1{display:block;font-size: 20px;font-weight: 600;color: #fe345e;}
+.productdetail1{display:block;padding: 8px 0;font-size: 14px;}
+.advertise{position: absolute;top: 166px;right: 12px;font-size:14px;text-align: left;}
+.button{margin: 0 auto;width: 293px;height: 51px;background: url("images/buttonbg.png") no-repeat;}
+.box3buttonright span,.box3buttonleft span,.button span{display: inline-block;margin-bottom: 7px; color: #ffead7;font-size: 16px;line-height: 36px;}
+.box3buttonright label,.box3buttonleft label,.button label{display: inline-block;margin: 5px 0;color: #ffdd80;font-size: 20px;vertical-align: top;}
+.box3buttonright b,.box3buttonleft b,.button b{color: #ffdd80;font-size: 37px;}
+.box3buttonright a,.box3buttonleft a,.button a{position: relative;top: -8px;margin: 0 11px;padding: 4px 15px;font-size: 15px; color:#b9532e;background-color: #e6d66e;border-radius: 5px;}
+.advertise1{position: absolute;top: 86px;right: -13px;font-size:12px;text-align: left;}
+.airporttitle{margin: 40px 0;font-size: 12px;color: #633d4a;}
+.dect70{position: relative;left: -70px;}
+/*内容：爱的对对碰部分*/
+.box3{height: 1109px;background: url('images/bg3.jpg') no-repeat center}
+.box3title{height: 162px;background: url('images/title3.jpg') no-repeat center}
+.box3product1{height:460px;background: url('images/loveproduct1.jpg') no-repeat center}
+.box3product2{height:460px;background: url('images/loveproduct2.jpg') no-repeat center}
+.mt20{margin-top:20px}
+.box3product1 ul{width:1200px;}
+.box3product1 ul li{width: 600px;float: left;height: 460px;list-style: none;}
+.box3product2 ul{width:1200px;}
+.box3product2 ul li{width: 600px;float: left;height: 460px;list-style: none;}
+.explainleft p,.explainright p{padding: 6px 0;}
+.explainleft{position: relative;top: 54px;left: 134px; font-size: 14px;}
+.explainright{position: relative;top: 54px;right: 135px; float: right;font-size: 14px; }
+.box3buttonleft{position: relative;top: 197px; left: 150px;}
+.box3buttonright{position: relative;float: right;top: 344px; right: 34px;}
+.t246{top: 246px;}
+.t402{top: 402px;}
+/*内容：傲娇的单着部分*/
+.box4{height: 1159px;background: url('images/bg4.jpg') no-repeat center}
+.box4title{height: 162px;background: url('images/title4.jpg') no-repeat center}
+/*回到顶部*/
+.bottomtop{height:223px;background-color: #b62f58;}
+.bottomtop a{text-decoration: none;}
+.bottomtop a img{position: relative;top:-20px;display: block;margin:0 auto;}
+/*导航*/
+.fixednav{position: fixed;right:20px;top: 250px;height: 359px;width:166px;background: url('images/fixednav.png') no-repeat}
+.navbox{position: relative;top:120px;width: 166px; height: 200px;}
+.navbox a{position: relative;left:32px;padding:5px 0;display: block;color:#fff; border-bottom: dashed 1px; width: 90px;}
+.navbox a:active{color:#ffed1e}
+.lastnav{    display: block;  position: relative;  top: 83px;  left: 56px;  height: 40px;  width: 43px;  border-radius: 50%;}

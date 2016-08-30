@@ -3,16 +3,33 @@
 <head>
 	<meta charset="UTF-8">
 	<title>title</title>
-	<script type="text/javascript" src="../jquery-1.11.3/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="/setLylToxlx.github.io/setLylToxlx.github.io/stylesheets/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/setLylToxlx.github.io/setLylToxlx.github.io/stylesheets/weixin-jssdk.css">
+    <script type="text/javascript" src="/setLylToxlx.github.io/setLylToxlx.github.io/javascripts/jquery.bootstrap.min.js"></script>
+    <script type="text/javascript" src="/setLylToxlx.github.io/setLylToxlx.github.io/javascripts/bootstrap.min.js"></script>
 	<script type="text/javascript" src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
 </head>
 <body>
-	<div class="share">
-		<span>分享到微信</span>
+	<div class="container">
+		<h2>调试微信</h2>
+		<ul class='list-group xlx-list'>
+			<li class="list-group-item list-group-info col-md-3 col-lg-2"><span>分享到微信</span></li>
+		</ul>
 	</div>
-
+	<script type="text/javascript" src="/setLylToxlx.github.io/setLylToxlx.github.io/javascripts/sea.js"></script>
+	<include file="818.html">	
 	<script type="text/javascript">
-		
+		seajs.config({
+			alias:{
+				'jquery':'/setLylToxlx.github.io/setLylToxlx.github.io/javascripts/jquery.min.js'
+			},
+			paths:{
+				'myPaths':'/setLylToxlx.github.io/setLylToxlx.github.io/'
+			}
+		})
+	</script>
+	<script type="text/javascript">
+		seajs.use('weixin.js');
 	</script>
 </body>
 </html>

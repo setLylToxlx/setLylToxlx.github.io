@@ -1,0 +1,226 @@
+/*公共*/
+.qi-xi{width:100%;height:100%;min-width:1200px;font-family:"Microsoft Yahei",'微软雅黑';background-color:#7328ee;}
+.ml23{margin-left:23px;}
+/*头部*/
+.head{height:750px;background: url('../images/head.png') no-repeat center;}
+.head .cloud-box{position:relative;margin:0 auto;width:1200px;height:750px;}
+.head .cloud{position:absolute;top:0;background: url('../images/total.png') no-repeat;}
+.head .cloud1{left:-66px;width:200px;height:468px;background-position: -8px 0;}
+.head .cloud2{left:92px;width:95px;height:533px;background-position: 7px -468px;}
+.head .cloud3{right:46px;width:114px;height:549px;background-position: -136px -468px;}
+.head .cloud4{right:-90px;width:248px;height:287px;background-position: 0 -1017px;}
+
+/*floor-one*/
+.floor-one{background: url('../images/flower1.png') no-repeat;}
+.title1{height:108px;background: url('../images/title1.png') no-repeat center;}
+/*抽奖*/
+.awards-box{display:none;float: left;margin-top: 84px;height: 440px;width: 838px;}
+.awards-box li{position:relative;margin: 0 9px 9px 0;float:left;width:269px;height: 196px;list-style: none;background-color: #fff;}
+.lottery1{background: url('../images/lotteryGirl.jpg') no-repeat center;background-position: 0 0;}
+.lottery2{background: url('../images/lotteryGirl.jpg') no-repeat center;background-position: 0 -196px;}
+.lottery3{background: url('../images/lotteryGirl.jpg') no-repeat center;background-position: 0 -392px;}
+.lottery4{left: -4px;background: url('../images/lotteryGirl.jpg') no-repeat center;background-position: 0 -980px;}
+.lottery5{left: -4px;background: url('../images/lotteryGirl.jpg') no-repeat center;background-position: 0 -784px;}
+.lottery6{background: url('../images/lotteryGirl.jpg') no-repeat center;background-position: 0 -588px;}
+#go-date{position: relative; display: block;margin: 0 auto;  width: 250px;  height: 55px;  background-color: #ff4874;  border-radius: 20px;  font-size: 32px;  color: #fff;outline: none;}
+.product-box{margin: 0 auto;width: 1200px;}
+.text-over{white-space:nowrap;text-overflow: ellipsis;overflow: hidden;}
+.box-left{float:left;margin: 18px 1px 0 0;width:280px;height:747px;}
+.lottery{}
+.lottery-img{float: left;margin-top: 78px;height: 440px;width: 838px;background: url('../images/lottery-1.png') no-repeat;}
+.lottery-btn{margin: 0 auto;width: 240px;height: 110px;text-align:center;background: url('../images/total.png') no-repeat center;background-position:0 -1742px;cursor: pointer;}
+.lottery-btn span{display: inherit;padding-top: 30px;font-size: 30px;line-height:47px;color:#fff;}
+.box-phone{float:left;}
+.box-rightLi{margin-top:20px;float:left;width:280px;height: 363px;text-align: center;background-color:#fff;}
+.box-img{display: block;padding-top:10px;}
+.box-img img:hover{transition:all .2s linear;-webkit-transform:translateY(-5px);-ms-transform:translateY(-5px);-moz-transform:translateY(-5px);-o-transform:translateY(-5px);transform:translateY(-5px);}
+.box-name,.box-name:hover{display: block;width:250px;padding: 10px 10px 0 10px;font-weight: 600;line-height:22px;font-size:19px;color:#000;}
+.box-info,.box-info:hover{display: block;width: 250px;padding: 0 15px 13px 15px;font-size: 15px;color: #a8a8a8;}
+.box-symbol{display: block;float: left;padding:0 30px 0 20px;;font-size:14px;color: #fff;background-color: #2eb4db;border-bottom-right-radius: 24px;border-top-right-radius: 24px;}
+.box-bottom{background-color: #ff4873;}
+.box-price{font-size: 24px;}
+.box-btn,.box-btn:hover{display:inline-block;margin-left:10px;padding: 2px 16px;text-align:center;font-weight:600;color:#fff;font-size:20px;border-radius: 4px;}
+
+.lottery-left{position:relative;float:left;margin: 17px 7px 0 0;width:355px;height:489px;background: url('../images/onlineLive.png') no-repeat center;}
+.online-balloonBox{position:absolute;top: -192px;left: 51px;}
+.online-balloon{width:232px;height:339px;background: url('../images/total.png') no-repeat center;background-position: 4px -1304px;}
+.online-title{position: absolute;bottom: 32px;left: 45px;font-size: 27px;color: #fff;font-weight: 600;}
+.lottery-list{position:relative;margin:158px auto 0 auto;width: 290px;height:280px;background-color: #5d3ed4;overflow: hidden;}
+.lottery-list li{margin: 0 35px;padding-top: 18px;font-size: 16px;color: #fff;}
+
+.explain-box{margin: 0 auto;margin-top: 35px;width:1100px;height:230px;background-color: #631fd4;border-radius: 15px}
+.explain{position: relative;top: 30px;margin: 0 auto;width:1040px;border:1px dashed #fff;color:#fff;font-size:20px;line-height: 30px;}
+.explain-title{padding:17px 0 0 40px;text-align: left;font-weight: 600;}
+.explain-text{padding:0 40px;text-align: left;}
+.explain-text span{display: inline-block;margin-right: 4px;width: 20px;  height: 20px;  border-radius: 50%;  font-size: 20px;  text-align: center;  line-height: 18px;  color: #7328ee;  background-color: #fff;}
+.explain-right{padding-right:40px;text-align: right;font-size: 16px;}
+/*floor-two*/
+.title{margin: 0 auto;height:184px;width:711px;background: url('../images/title.png') no-repeat center;}
+.sound-box{margin:0 auto;width:1160px;height:560px;background-color: #631fd4;}
+.sound-left{display:block;float: left;padding:30px 30px;width:420px;height:486px;}
+.sound-right{float:right;padding-top:65px;width:590px;height:460px;text-align: left;}
+.sound-right .right-name{display:block;font-size:42px;line-height:47px;color:#fff;}
+.sound-right .right-info{display:block;font-size:24px;line-height:47px;color:#fff;opacity: 0.6;filter:alpha(opacity=60);}
+.sound-right .right-price del{position:absolute;top: 50px;color: #fff;opacity: 0.6;font-size:18px;line-height:72px;}
+.sound-right .right-price{position:relative;display: inline-block;*display: inline;zoom: 1;padding: 75px 100px 75px 0;font-size:49px;line-height:47px;color:#ff4873;}
+.sound-right .right-price span{font-size:24px;}
+.sound-right  .right-btn{display: inline-block;*display: inline;zoom: 1;width:194px;height:61px;text-align:center;font-size:30px;line-height:61px;color:#fff;cursor:pointer;background: url('../images/total.png') no-repeat center;background-position:-3px -1856px;}
+.red-package{position:absolute;width:350px;height:86px;border:1px solid #fff;}
+.red-package .package-left{float:left;width:146px;height:86px;text-align:center;border-right: 1px solid #fff;}
+.red-package .package-leftTxt{display:block;float:left;width:30px;height:86px;color:#fff;font-size:24px;line-height:42px;background-color: #2eb4db;}
+.red-package .package-leftSym{}
+.red-package .red-picture{position: absolute;  top: -13px;  left: 46px;  width: 83px;  height: 95px;}
+.red-package .package-right{float:left;width:203px;height:86px;}
+.red-package .package-right p{font-size:24px;line-height: 86px;color:#fff;text-align: center;}
+.floor-two{background: url('../images/flower1.png') no-repeat,url("../images/flower3.png") no-repeat;background-position: 0,right top;}
+.title2{background-position: 0 -1px;}
+/*flor-three*/
+.floor-three{background: url('../images/flower2.png') no-repeat,url("../images/flower1.png") no-repeat;background-position: 0,right;}
+.title3{background-position: 0 -192px;}
+/*floor-four*/
+.floor-four{background: url('../images/flower1.png') no-repeat,url("../images/flower2.png") no-repeat right;background-position: top left,right;}
+.title4{background-position: 0 -384px;}
+/*floor-five*/
+.floor-five{background: url('../images/flower2.png') no-repeat,url("../images/flower3.png") no-repeat right;background-position: left,right top;}
+.title5{background-position: 0 -575px;}
+/*底部*/
+.bottom-top{margin-top: 50px;height:180px;width:100%;background-color: #5611c6;}
+.top-box{position:relative;margin:0 auto;height:180px;width:210px;}
+.top{display: block;position: absolute;top: -30px;width: 208px;height: 208px;background: url('../images/total.png') no-repeat center;background-position: 3px -1939px;}
+
+/*导航*/
+.nav{display:none;position: fixed;right:60px;top: 200px;width: 125px;height: 392px;background: url("../images/total.png") no-repeat;background-position:2px -2152px;z-index:999;}
+.nav-list{width: 106px;margin: 15px 10px;}
+.nav-item{position: relative;display: block;margin: 0 auto;width:90px;height:44px;font-size:18px;line-height: 40px;text-align: center;color:#fff;}
+.nav-list a:hover,.nav-list a:active{text-decoration: none;color:#f0d278;}
+.nav-active{color:#f0d278;}
+.border-dashed{border-bottom: 1px dashed #000;}
+.nav-service{position:absolute;top: 176px;right: -60px;width:100px;height:57px;background: url("../images/total.png") no-repeat;background-position:-150px -2171px;z-index:9999;}
+/*弹窗蒙层*/
+.hold{display:none;position:fixed;top:0;width:100%;height:100%;background-color: #000;opacity: 0.6;filter:alpha(opacity=60);}
+.popup{display:none;position:fixed;top:0;width:100%;height:100%;}
+.hold-box{margin:0 auto;position:relative;top:50%;margin-top:-272px;width:600px;height:544px;background: url('../images/pop.png') no-repeat center;background-position: 0 0;}
+.hold-text{display: block;margin: 0 auto;  width: 337px;  text-align: center;  font-family: '隶书','Microsoft Yahei';  font-size: 28px;  line-height: 47px;  color: #fff621;}
+.hold-link{display:block;margin:0 auto;margin-top: 60px;width: 210px;height: 71px;text-align:center;line-height:71px;font-size: 30px;  color: #fff;background: url('../images/pop.png') no-repeat center;background-position: -196px -730px;}
+.pt230{padding-top:230px;}
+.pt170{padding-top: 170px}
+.f24{font-size:24px;}
+.close{position:absolute;width: 66px;height: 59px;top: 69px;right: 12px;cursor: pointer;}
+.pop1{position: relative;margin: 0 auto;top: 150px;width:225px;height:166px;background: url('../images/pop.png') no-repeat center;background-position: -193px -536px;}
+.pop2{position: relative;margin: 0 auto;top: 150px;width:197px;height:168px;background: url('../images/pop.png') no-repeat center;background-position: 0 -532px;}
+.pop3{position: relative;margin: 0 auto;top: 150px;width:197px;height:168px;background: url('../images/pop.png') no-repeat center;background-position: 0 -703px;}
+.pop4{position: relative;margin: 0 auto;top: 150px;width:197px;height:187px;background: url('../images/pop.png') no-repeat center;background-position: -406px -685px;}
+
+/*动画*/
+.shake1{position: relative;animation-delay: 2s;animation-duration: 10000ms;animation-iteration-count: infinite; animation-name: shake;}
+.shake2{position: relative;animation-delay: 1s;animation-duration: 9000ms;animation-iteration-count: infinite; animation-name: shake;}
+.shake3{position: relative;animation-delay: 0s;animation-duration: 7000ms;animation-iteration-count: infinite; animation-name: shake;}
+.shake4{position: relative;animation-delay: 0s;animation-duration: 6000ms;animation-iteration-count: infinite; animation-name: shake;}
+.shake5{animation-delay: 0s;animation-duration: 6000ms;animation-iteration-count: infinite; animation-name: shake;}
+@keyframes shake {
+    9% {
+        transform: translateY(5px); }
+    18% {
+        transform: translateY(10px); }
+    27% {
+        transform: translateY(5px); }
+    35% {
+        transform: translateY(0px); }
+    42% {
+        transform: translateY(5px); }
+    52% {
+        transform: translateY(10px); }
+    60% {
+        transform: translateY(5px);}
+    69% {
+        transform: translateY(0px); }
+    78% {
+        transform: translateY(5px);}
+    86% {
+        transform: translateY(10px); }
+    94% {
+        transform: translateY(0px); }
+    0%, 100% {
+        transform: translateY(0px); }
+}
+@-moz-keyframes shake {
+    9% {
+        transform: translateY(5px); }
+    18% {
+        transform: translateY(10px); }
+    27% {
+        transform: translateY(5px); }
+    35% {
+        transform: translateY(0px); }
+    42% {
+        transform: translateY(5px); }
+    52% {
+        transform: translateY(10px); }
+    60% {
+        transform: translateY(5px);}
+    69% {
+        transform: translateY(0px); }
+    78% {
+        transform: translateY(5px);}
+    86% {
+        transform: translateY(10px); }
+    94% {
+        transform: translateY(0px); }
+    0%, 100% {
+        transform: translateY(0px); }
+}
+
+@-webkit-keyframes shake {
+    9% {
+        transform: translateY(5px); }
+    18% {
+        transform: translateY(10px); }
+    27% {
+        transform: translateY(5px); }
+    35% {
+        transform: translateY(0px); }
+    42% {
+        transform: translateY(5px); }
+    52% {
+        transform: translateY(10px); }
+    60% {
+        transform: translateY(5px);}
+    69% {
+        transform: translateY(0px); }
+    78% {
+        transform: translateY(5px);}
+    86% {
+        transform: translateY(10px); }
+    94% {
+        transform: translateY(0px); }
+    0%, 100% {
+        transform: translateY(0px); }
+}
+
+@-o-keyframes shake {
+    9% {
+        transform: translateY(5px); }
+    18% {
+        transform: translateY(10px); }
+    27% {
+        transform: translateY(5px); }
+    35% {
+        transform: translateY(0px); }
+    42% {
+        transform: translateY(5px); }
+    52% {
+        transform: translateY(10px); }
+    60% {
+        transform: translateY(5px);}
+    69% {
+        transform: translateY(0px); }
+    78% {
+        transform: translateY(5px);}
+    86% {
+        transform: translateY(10px); }
+    94% {
+        transform: translateY(0px); }
+    0%, 100% {
+        transform: translateY(0px); }
+}
+

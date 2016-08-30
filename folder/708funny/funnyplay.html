@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+    <link rel="stylesheet" href="http://s1.hqbcdn.com/??mobile/v0/css/public.css,lib/dialog/skins/dialog.css?t=20150512">
+    <link rel="stylesheet" href="css/funnyplay.css"/>
+    <title>708酷玩潮品</title>
+    <script type="text/javascript" src="http://s.hqbcdn.com/??lib/jquery/jquery-1.7.2.min.js,lib/jquery/slides.min.jquery.js,lib/jquery/jquery.lazyload.js,lib/dialog/artDialog.js?t=20140423"></script>
+    <script src="js/funnyplay.js"></script>
+</head>
+<body>
+<section class="funny-play">
+    <div class="head">
+        <img class="lazy" width="100%" src="images/head1.jpg"/>
+        <img class="lazy" width="100%" src="images/head2.jpg"/>
+    </div>
+    <div id="nav" class='nav'>
+        <ul>
+            <li><a href="#"><p>生活好帮手</p></a></li>
+            <li><a href="#"><p>她就适合你</p></a></li>
+            <li><a href="#"><p>超级畅销榜</p></a></li>
+        </ul>
+        <br clear="all" />
+    </div>
+    <div class="phone-box">
+        <div class="title">
+            <img class="lazy" width="100%" src="images/title1.jpg"/>
+        </div>
+        <ul class="phone-list">
+            <li>
+                <a href="#">
+                    <img class="lazy" width="100%" src="http://img16.hqbcdn.com/product/a6/71/a671e67b3331539905c9a2ece6c6424e.270.png"/>
+                    <p>苹果 iPhone 6s Plus 玫瑰金色</p>
+                    <p>大陆行货苹果原封机，享有全国440家服</p>
+                </a>
+                <span>抢购价:￥</span><b>9999</b>
+                <a  href="#">立即购买</a>
+            </li>
+            <li>
+                <a  href="#">
+                    <img class="lazy" width="100%" src="http://img16.hqbcdn.com/product/a6/71/a671e67b3331539905c9a2ece6c6424e.270.png"/>
+                    <p>苹果 iPhone 6s Plus 玫瑰金色</p>
+                    <p>大陆行货苹果原封机，享有全国440家服</p>
+                </a>
+                <span>抢购价:￥</span><b>9999</b>
+                <a  href="#">立即购买</a>
+            </li>
+            <li>
+                <a  href="#">
+                    <img class="lazy" width="100%" src="http://img16.hqbcdn.com/product/a6/71/a671e67b3331539905c9a2ece6c6424e.270.png"/>
+                    <p>苹果 iPhone 6s Plus 玫瑰金色</p>
+                    <p>大陆行货苹果原封机，享有全国440家服</p>
+                </a>
+                <span>抢购价:￥</span><b>9999</b>
+                <a  href="#">立即购买</a>
+            </li>
+            <li>
+                <a  href="#">
+                    <img class="lazy" width="100%" src="http://img16.hqbcdn.com/product/a6/71/a671e67b3331539905c9a2ece6c6424e.270.png"/>
+                    <p>苹果 iPhone 6s Plus 玫瑰金色</p>
+                    <p>大陆行货苹果原封机，享有全国440家服</p>
+                </a>
+                <span>抢购价:￥</span><b>9999</b>
+                <a>立即购买</a>
+            </li>
+            <li>
+                <a href="#">
+                    <img class="lazy" width="100%" src="http://img16.hqbcdn.com/product/a6/71/a671e67b3331539905c9a2ece6c6424e.270.png"/>
+                    <p>苹果 iPhone 6s Plus 玫瑰金色</p>
+                    <p>大陆行货苹果原封机，享有全国440家服</p>
+                </a>
+                <span>抢购价:￥</span><b>9999</b>
+                <a  href="#">立即购买</a>
+            </li>
+            <li>
+                <a  href="#">
+                    <img class="lazy" width="100%" src="http://img16.hqbcdn.com/product/a6/71/a671e67b3331539905c9a2ece6c6424e.270.png"/>
+                    <p>苹果 iPhone 6s Plus 玫瑰金色</p>
+                    <p>大陆行货苹果原封机，享有全国440家服</p>
+                </a>
+                <span>抢购价:￥</span><b>9999</b>
+                <a  href="#">立即购买</a>
+            </li>
+        </ul>
+    </div>
+    <p class="oo">这是一个测试</p>
+</section>
+</body>
+<!--监控代码-->
+<script>
+    function gao(p) {
+        return (typeof(p)).toLowerCase() == "string" && p !== ""
+    }
+    function getGaCookie(r) {
+        var q, p;
+        if (gao(r)) {
+            if ((p = String(document.cookie).match(new RegExp("(?:^| )" + r + "(?:(?:=([^;]*))|;|$)")))) {
+                q = p[1] ? p[1] : ""
+            }
+        }
+        return q
+    }
+    var gmemberid=0;
+    var authstr = getGaCookie('auth');
+    if (authstr) {
+        authstr = eval("("+authstr+")");
+        authstr = eval("("+authstr+")");
+        gmemberid = authstr.member_id;
+    }
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-30148206-1', 'okhqb.com');
+    ga('set', 'UA-30148206-1',  {'userId': gmemberid });
+    ga('send', 'pageview');
+</script>
+<script type="text/javascript" src="http://a.okhqb.com/plus/ok.js?t=20140708"></script>
+<script type="text/javascript" src="http://okhqbanalytics.okhqb.com/clickheat/js/clickheat.js?t=20140710"></script>
+<script type="text/javascript">
+clickHeatSite = "okhqb.com";
+clickHeatGroup = "http://m.okhqb.com/";
+clickHeatServer = "http://okhqbanalytics.okhqb.com/clickheat/click.php";
+initClickHeat();
+</script>
+</html>

@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>新人礼包</title>
+    <link rel="stylesheet" type="text/css" href="http://s2.hqbcdn.com/??assets/v4/css/base.css,assets/v4/css/public-new.css,lib/dialog/skins/dialog.css?t=20160419"/>
+    <link rel="stylesheet" href="css/newPeopleGift.css"/>
+    <script type="text/javascript" src="http://s1.hqbcdn.com/??lib/jquery/jquery-1.7.2.min.js,lib/jquery/jquery.cookie.js,lib/jquery/jquery-easing.1.3.js,lib/dialog/artDialog.js,lib/jquery/jquery.lazyload.js?t=20141007;"></script>
+    <script type="text/javascript" src="http://s.hqbcdn.com/??lib/OKHQB/sign/sign.js,build/assets/v4/script/login.auth.min.js?t=20150205"></script>
+    <style>
+        /*验证手机号*/
+        #verifyPhone{position: fixed;top:50%;left:50%;margin-top: -152px;margin-left: -200px;padding: 1px 0;width:400px;height:304px;background-color: #fff;z-index:10000;}
+        #verifyPhone .OKHQB_logo{width:122px;height:25px;margin:12px 0 0 20px;background: url(images/okhqblogo.jpg) 0 0 no-repeat;}
+        #verifyPhone h3{padding:15px 0 0;text-align: center;font-family: "Microsoft Yahei";font-size: 24px;font-weight: bold;color:#e10808;border-bottom: 1px solid #e10808;}
+        #verifyPhone .verify_bd li{padding:20px 0 0 60px;}
+        #verifyPhone .verify_bd input{padding:10px 0 10px 10px;margin-right: 10px;border:1px solid #c8c8c8;}
+        #phoneNum{width:180px;}
+        #veriCode{width:120px;}
+        #sendVeriCode{display: inline-block;*zoom:1;vertical-align: bottom;width:80px;height:38px;text-align: center;line-height: 38px;font-size: 14px;color:#fff;}
+        #VerifyAndGetCoupon{display: block;width:166px;height:40px;line-height: 40px;font-size: 18px;text-align: center;color:#fff;}
+        ._active{background-color: #e10808;}
+        ._active:hover{text-decoration: none;}
+        .disabled{cursor : default;background-color: #AACAE2;}
+        .veri_tip{color:red;}
+        .time_down, ._iptTip{display: none;}
+        .verifyClose{position: absolute;right: 0;width: 30px;height: 30px;text-align: center;font-size: 24px;line-height: 24px;cursor: pointer;}
+    </style>
+</head>
+<body>
+<div class="new-gift">
+    <div class="head">
+        <div class="head1"></div>
+        <div class="head2"></div>
+    </div>
+    <div class="floor-one">
+        <div class="title-one"></div>
+        <div class="content-one">
+            <div class="ticket-one"></div>
+            <div class="explain-one">
+                <ul>
+                    <li>1. 新注册用户可在本页面领取80元新人礼包，领取后可在“个人中心-我的优惠券”中查询;</li>
+                    <li>2. 新人礼包使用时间：自领取十五天内有效;</li>
+                    <li>3. 手机、平板、电脑专用券仅支持购买手机、平板、电脑类商品，数码专用券仅支持购买数码<br/>&nbsp;&nbsp;&nbsp;&nbsp;类商品，其中特惠商品及抢购商品除外；</li>
+                    <li>4. 使用新人专享券的订单若发生退货，新人券在有效期内将返回至用户个人中心，可再次使<br/>&nbsp;&nbsp;&nbsp;&nbsp;用；若新人券订单退货时已超过券有效期，券将自动失效，不做延期。</li>
+                </ul>
+            </div>
+            <div class="get-ticket">
+                <span>马上领取</span>
+            </div>
+        </div>
+    </div>
+    <div class="floor-two">
+        <div class="title-two"></div>
+        <div class="content-two">
+            <div class="ticket-two"></div>
+            <div class="explain-two">
+                <ul>
+                    <li>1. 首次成功下单的用户，系统将自动发放100元大礼包到“个人中心”; </li>
+                    <li>2. 首购礼包使用时间：自获得后十五天内有效;</li>
+                    <li>3. 手机、平板、电脑专用券仅支持购买手机、平板、电脑类商品，数码专用券仅支持购买数码类<br/>&nbsp;&nbsp;&nbsp;&nbsp;商品，其中特惠商品及抢购商品除外;</li>
+                    <li>4. 使用首购返券的订单若发生退货，券在有效期内将返回至用户个人中心，可再次使用；若首购<br/>&nbsp;&nbsp;&nbsp;&nbsp;所返券订单退货时已超过券有效期，券将自动失效，不做延期。</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="floor-three">
+        <div class="title-three" id="go-buy"></div>
+        <div class="content-three">
+            <ul class="guide-title cfix">
+                <li class="noneCheck1 check1" data-id="1">海淘优选</li>
+                <li class="noneCheck2" data-id="2">国货精品</li>
+                <li class="noneCheck3" data-id="3">手机配件</li>
+                <li class="noneCheck4" data-id="4">数码影音</li>
+            </ul>
+            <ul class="checkList1 cfix">
+                <li class="phone-box">
+                    <a href="#" target="_blank" class="phone-img">
+                        <img width="250" height="250" class='lazy' src="http://img1.hqbcdn.com/misc/special/lazy.png" data-original="http://img16.hqbcdn.com/product/a6/71/a671e67b3331539905c9a2ece6c6424e.250.png" alt="">
+                    </a>
+                    <a href="#" target="_blank" class="phone-name text-over">苹果 iPhone SE 玫瑰金 16GB</a>
+                    <a href="#" target="_blank" class="phone-info text-over">外形小巧a异常强大</a>
+                    <p class="phone-buy"><span class="phone-price"><span class="phone-syb">¥</span>2988</span><a href="#" target="_blank" class="phone-btn font-color1">立即购买</a></p>
+                </li>
+                <li class="phone-box">
+                    <a href="#" target="_blank" class="phone-img">
+                        <img width="250" height="250" class='lazy' src="http://img1.hqbcdn.com/misc/special/lazy.png" data-original="http://img16.hqbcdn.com/product/a6/71/a671e67b3331539905c9a2ece6c6424e.250.png" alt="">
+                    </a>
+                    <a href="#" target="_blank" class="phone-name text-over">苹果 iPhone SE 玫瑰金 16GB</a>
+                    <a href="#" target="_blank" class="phone-info text-over">外形小巧a异常强大</a>
+                    <p class="phone-buy"><span class="phone-price"><span class="phone-syb">¥</span>2988</span><a href="#" target="_blank" class="phone-btn font-color1">立即购买</a></p>
+                </li>
+                <li class="phone-box">
+                    <a href="#" target="_blank" class="phone-img">
+                        <img width="250" height="250" class='lazy' src="http://img1.hqbcdn.com/misc/special/lazy.png" data-original="http://img16.hqbcdn.com/product/a6/71/a671e67b3331539905c9a2ece6c6424e.250.png" alt="">
+                    </a>
+                    <a href="#" target="_blank" class="phone-name text-over">苹果 iPhone SE 玫瑰金 16GB</a>
+                    <a href="#" target="_blank" class="phone-info text-over">外形小巧a异常强大</a>
+                    <p class="phone-buy"><span class="phone-price"><span class="phone-syb">¥</span>2988</span><a href="#" target="_blank" class="phone-btn font-color1">立即购买</a></p>
+                </li>
+                <li class="phone-box">
+                    <a href="#" target="_blank" class="phone-img">
+                        <img width="250" height="250" class='lazy' src="http://img1.hqbcdn.com/misc/special/lazy.png" data-original="http://img16.hqbcdn.com/product/a6/71/a671e67b3331539905c9a2ece6c6424e.250.png" alt="">
+                    </a>
+                    <a href="#" target="_blank" class="phone-name text-over">苹果 iPhone SE 玫瑰金 16GB</a>
+                    <a href="#" target="_blank" class="phone-info text-over">外形小巧a异常强大</a>
+                    <p class="phone-buy"><span class="phone-price"><span class="phone-syb">¥</span>2988</span><a href="#" target="_blank" class="phone-btn font-color1">立即购买</a></p>
+                </li>
+                <li class="phone-box">
+                    <a href="#" target="_blank" class="phone-img">
+                        <img width="250" height="250" class='lazy' src="http://img1.hqbcdn.com/misc/special/lazy.png" data-original="http://img16.hqbcdn.com/product/a6/71/a671e67b3331539905c9a2ece6c6424e.250.png" alt="">
+                    </a>
+                    <a href="#" target="_blank" class="phone-name text-over">苹果 iPhone SE 玫瑰金 16GB</a>
+                    <a href="#" target="_blank" class="phone-info text-over">外形小巧a异常强大</a>
+                    <p class="phone-buy"><span class="phone-price"><span class="phone-syb">¥</span>2988</span><a href="#" target="_blank" class="phone-btn font-color1">立即购买</a></p>
+                </li>
+                <li class="phone-box">
+                    <a href="#" target="_blank" class="phone-img">
+                        <img width="250" height="250" class='lazy' src="http://img1.hqbcdn.com/misc/special/lazy.png" data-original="http://img16.hqbcdn.com/product/a6/71/a671e67b3331539905c9a2ece6c6424e.250.png" alt="">
+                    </a>
+                    <a href="#" target="_blank" class="phone-name text-over">苹果 iPhone SE 玫瑰金 16GB</a>
+                    <a href="#" target="_blank" class="phone-info text-over">外形小巧a异常强大</a>
+                    <p class="phone-buy"><span class="phone-price"><span class="phone-syb">¥</span>2988</span><a href="#" target="_blank" class="phone-btn font-color1">立即购买</a></p>
+                </li>
+                <li class="phone-box">
+                    <a href="#" target="_blank" class="phone-img">
+                        <img width="250" height="250" class='lazy' src="http://img1.hqbcdn.com/misc/special/lazy.png" data-original="http://img16.hqbcdn.com/product/a6/71/a671e67b3331539905c9a2ece6c6424e.250.png" alt="">
+                    </a>
+                    <a href="#" target="_blank" class="phone-name text-over">苹果 iPhone SE 玫瑰金 16GB</a>
+                    <a href="#" target="_blank" class="phone-info text-over">外形小巧a异常强大</a>
+                    <p class="phone-buy"><span class="phone-price"><span class="phone-syb">¥</span>2988</span><a href="#" target="_blank" class="phone-btn font-color1">立即购买</a></p>
+                </li>
+                <li class="phone-box">
+                    <a href="#" target="_blank" class="phone-img">
+                        <img width="250" height="250" class='lazy' src="http://img1.hqbcdn.com/misc/special/lazy.png" data-original="http://img16.hqbcdn.com/product/a6/71/a671e67b3331539905c9a2ece6c6424e.250.png" alt="">
+                    </a>
+                    <a href="#" target="_blank" class="phone-name text-over">苹果 iPhone SE 玫瑰金 16GB</a>
+                    <a href="#" target="_blank" class="phone-info text-over">外形小巧a异常强大</a>
+                    <p class="phone-buy"><span class="phone-price"><span class="phone-syb">¥</span>2988</span><a href="#" target="_blank" class="phone-btn font-color1">立即购买</a></p>
+                </li>
+            </ul>
+            <ul class="checkList2 cfix">
+                <li class="phone-box">
+                    <a href="#" target="_blank" class="phone-img">
+                        <img width="250" height="250" src="http://img16.hqbcdn.com/product/a6/71/a671e67b3331539905c9a2ece6c6424e.250.png" alt="">
+                    </a>
+                    <a href="#" target="_blank" class="phone-name text-over">苹果 iPhone SE 玫瑰金 16GB</a>
+                    <a href="#" target="_blank" class="phone-info text-over">外形小巧a异常强大</a>
+                    <p class="phone-buy"><span class="phone-price"><span class="phone-syb">¥</span>2988</span><a href="#" target="_blank" class="phone-btn font-color1">立即购买</a></p>
+                </li>
+                <li class="phone-box">
+                    <a href="#" target="_blank" class="phone-img">
+                        <img width="250" height="250" src="http://img16.hqbcdn.com/product/a6/71/a671e67b3331539905c9a2ece6c6424e.250.png" alt="">
+                    </a>
+                    <a href="#" target="_blank" class="phone-name text-over">苹果 iPhone SE 玫瑰金 16GB</a>
+                    <a href="#" target="_blank" class="phone-info text-over">外形小巧a异常强大</a>
+                    <p class="phone-buy"><span class="phone-price"><span class="phone-syb">¥</span>2988</span><a href="#" target="_blank" class="phone-btn font-color1">立即购买</a></p>
+                </li>
+                <li class="phone-box">
+                    <a href="#" target="_blank" class="phone-img">
+                        <img width="250" height="250" src="http://img16.hqbcdn.com/product/a6/71/a671e67b3331539905c9a2ece6c6424e.250.png" alt="">
+                    </a>
+                    <a href="#" target="_blank" class="phone-name text-over">苹果 iPhone SE 玫瑰金 16GB</a>
+                    <a href="#" target="_blank" class="phone-info text-over">外形小巧a异常强大</a>
+                    <p class="phone-buy"><span class="phone-price"><span class="phone-syb">¥</span>2988</span><a href="#" target="_blank" class="phone-btn font-color1">立即购买</a></p>
+                </li>
+                <li class="phone-box">
+                    <a href="#" target="_blank" class="phone-img">
+                        <img width="250" height="250" src="http://img16.hqbcdn.com/product/a6/71/a671e67b3331539905c9a2ece6c6424e.250.png" alt="">
+                    </a>
+                    <a href="#" target="_blank" class="phone-name text-over">苹果 iPhone SE 玫瑰金 16GB</a>
+                    <a href="#" target="_blank" class="phone-info text-over">外形小巧a异常强大</a>
+                    <p class="phone-buy"><span class="phone-price"><span class="phone-syb">¥</span>2988</span><a href="#" target="_blank" class="phone-btn font-color1">立即购买</a></p>
+                </li>
+                <li class="phone-box">
+                    <a href="#" target="_blank" class="phone-img">
+                        <img width="250" height="250" src="http://img16.hqbcdn.com/product/a6/71/a671e67b3331539905c9a2ece6c6424e.250.png" alt="">
+                    </a>
+                    <a href="#" target="_blank" class="phone-name text-over">苹果 iPhone SE 玫瑰金 16GB</a>
+                    <a href="#" target="_blank" class="phone-info text-over">外形小巧a异常强大</a>
+                    <p class="phone-buy"><span class="phone-price"><span class="phone-syb">¥</span>2988</span><a href="#" target="_blank" class="phone-btn font-color1">立即购买</a></p>
+                </li>
+                <li class="phone-box">
+                    <a href="#" target="_blank" class="phone-img">
+                        <img width="250" height="250" src="http://img16.hqbcdn.com/product/a6/71/a671e67b3331539905c9a2ece6c6424e.250.png" alt="">
+                    </a>
+                    <a href="#" target="_blank" class="phone-name text-over">苹果 iPhone SE 玫瑰金 16GB</a>
+                    <a href="#" target="_blank" class="phone-info text-over">外形小巧a异常强大</a>
+                    <p class="phone-buy"><span class="phone-price"><span class="phone-syb">¥</span>2988</span><a href="#" target="_blank" class="phone-btn font-color1">立即购买</a></p>
+                </li>
+                <li class="phone-box">
+                    <a href="#" target="_blank" class="phone-img">
+                        <img width="250" height="250" src="http://img16.hqbcdn.com/product/a6/71/a671e67b3331539905c9a2ece6c6424e.250.png" alt="">
+                    </a>
+                    <a href="#" target="_blank" class="phone-name text-over">苹果 iPhone SE 玫瑰金 16GB</a>
+                    <a href="#" target="_blank" class="phone-info text-over">外形小巧a异常强大</a>
+                    <p class="phone-buy"><span class="phone-price"><span class="phone-syb">¥</span>2988</span><a href="#" target="_blank" class="phone-btn font-color1">立即购买</a></p>
+                </li>
+                <li class="phone-box">
+                    <a href="#" target="_blank" class="phone-img">
+                        <img width="250" height="250" src="http://img16.hqbcdn.com/product/a6/71/a671e67b3331539905c9a2ece6c6424e.250.png" alt="">
+                    </a>
+                    <a href="#" target="_blank" class="phone-name text-over">苹果 iPhone SE 玫瑰金 16GB</a>
+                    <a href="#" target="_blank" class="phone-info text-over">外形小巧a异常强大</a>
+                    <p class="phone-buy"><span class="phone-price"><span class="phone-syb">¥</span>2988</span><a href="#" target="_blank" class="phone-btn font-color1">立即购买</a></p>
+                </li>
+            </ul>
+            <ul class="checkList3 cfix">
+                <li class="phone-box">
+                    <a href="#" target="_blank" class="phone-img">
+                        <img width="250" height="250" src="http://img16.hqbcdn.com/product/a6/71/a671e67b3331539905c9a2ece6c6424e.250.png" alt="">
+                    </a>
+                    <a href="#" target="_blank" class="phone-name text-over">苹果 iPhone SE 玫瑰金 16GB</a>
+                    <a href="#" target="_blank" class="phone-info text-over">外形小巧a异常强大</a>
+                    <p class="phone-buy"><span class="phone-price"><span class="phone-syb">¥</span>2988</span><a href="#" target="_blank" class="phone-btn font-color1">立即购买</a></p>
+                </li>
+                <li class="phone-box">
+                    <a href="#" target="_blank" class="phone-img">
+                        <img width="250" height="250" src="http://img16.hqbcdn.com/product/a6/71/a671e67b3331539905c9a2ece6c6424e.250.png" alt="">
+                    </a>
+                    <a href="#" target="_blank" class="phone-name text-over">苹果 iPhone SE 玫瑰金 16GB</a>
+                    <a href="#" target="_blank" class="phone-info text-over">外形小巧a异常强大</a>
+                    <p class="phone-buy"><span class="phone-price"><span class="phone-syb">¥</span>2988</span><a href="#" target="_blank" class="phone-btn font-color1">立即购买</a></p>
+                </li>
+                <li class="phone-box">
+                    <a href="#" target="_blank" class="phone-img">
+                        <img width="250" height="250" src="http://img16.hqbcdn.com/product/a6/71/a671e67b3331539905c9a2ece6c6424e.250.png" alt="">
+                    </a>
+                    <a href="#" target="_blank" class="phone-name text-over">苹果 iPhone SE 玫瑰金 16GB</a>
+                    <a href="#" target="_blank" class="phone-info text-over">外形小巧a异常强大</a>
+                    <p class="phone-buy"><span class="phone-price"><span class="phone-syb">¥</span>2988</span><a href="#" target="_blank" class="phone-btn font-color1">立即购买</a></p>
+                </li>
+                <li class="phone-box">
+                    <a href="#" target="_blank" class="phone-img">
+                        <img width="250" height="250" src="http://img16.hqbcdn.com/product/a6/71/a671e67b3331539905c9a2ece6c6424e.250.png" alt="">
+                    </a>
+                    <a href="#" target="_blank" class="phone-name text-over">苹果 iPhone SE 玫瑰金 16GB</a>
+                    <a href="#" target="_blank" class="phone-info text-over">外形小巧a异常强大</a>
+                    <p class="phone-buy"><span class="phone-price"><span class="phone-syb">¥</span>2988</span><a href="#" target="_blank" class="phone-btn font-color1">立即购买</a></p>
+                </li>
+                <li class="phone-box">
+                    <a href="#" target="_blank" class="phone-img">
+                        <img width="250" height="250" src="http://img16.hqbcdn.com/product/a6/71/a671e67b3331539905c9a2ece6c6424e.250.png" alt="">
+                    </a>
+                    <a href="#" target="_blank" class="phone-name text-over">苹果 iPhone SE 玫瑰金 16GB</a>
+                    <a href="#" target="_blank" class="phone-info text-over">外形小巧a异常强大</a>
+                    <p class="phone-buy"><span class="phone-price"><span class="phone-syb">¥</span>2988</span><a href="#" target="_blank" class="phone-btn font-color1">立即购买</a></p>
+                </li>
+                <li class="phone-box">
+                    <a href="#" target="_blank" class="phone-img">
+                        <img width="250" height="250" src="http://img16.hqbcdn.com/product/a6/71/a671e67b3331539905c9a2ece6c6424e.250.png" alt="">
+                    </a>
+                    <a href="#" target="_blank" class="phone-name text-over">苹果 iPhone SE 玫瑰金 16GB</a>
+                    <a href="#" target="_blank" class="phone-info text-over">外形小巧a异常强大</a>
+                    <p class="phone-buy"><span class="phone-price"><span class="phone-syb">¥</span>2988</span><a href="#" target="_blank" class="phone-btn font-color1">立即购买</a></p>
+                </li>
+                <li class="phone-box">
+                    <a href="#" target="_blank" class="phone-img">
+                        <img width="250" height="250" src="http://img16.hqbcdn.com/product/a6/71/a671e67b3331539905c9a2ece6c6424e.250.png" alt="">
+                    </a>
+                    <a href="#" target="_blank" class="phone-name text-over">苹果 iPhone SE 玫瑰金 16GB</a>
+                    <a href="#" target="_blank" class="phone-info text-over">外形小巧a异常强大</a>
+                    <p class="phone-buy"><span class="phone-price"><span class="phone-syb">¥</span>2988</span><a href="#" target="_blank" class="phone-btn font-color1">立即购买</a></p>
+                </li>
+                <li class="phone-box">
+                    <a href="#" target="_blank" class="phone-img">
+                        <img width="250" height="250" src="http://img16.hqbcdn.com/product/a6/71/a671e67b3331539905c9a2ece6c6424e.250.png" alt="">
+                    </a>
+                    <a href="#" target="_blank" class="phone-name text-over">苹果 iPhone SE 玫瑰金 16GB</a>
+                    <a href="#" target="_blank" class="phone-info text-over">外形小巧a异常强大</a>
+                    <p class="phone-buy"><span class="phone-price"><span class="phone-syb">¥</span>2988</span><a href="#" target="_blank" class="phone-btn font-color1">立即购买</a></p>
+                </li>
+            </ul>
+            <ul class="checkList4 cfix">
+                <li class="phone-box">
+                    <a href="#" target="_blank" class="phone-img">
+                        <img width="250" height="250" src="http://img16.hqbcdn.com/product/a6/71/a671e67b3331539905c9a2ece6c6424e.250.png" alt="">
+                    </a>
+                    <a href="#" target="_blank" class="phone-name text-over">苹果 iPhone SE 玫瑰金 16GB</a>
+                    <a href="#" target="_blank" class="phone-info text-over">外形小巧a异常强大</a>
+                    <p class="phone-buy"><span class="phone-price"><span class="phone-syb">¥</span>2988</span><a href="#" target="_blank" class="phone-btn font-color1">立即购买</a></p>
+                </li>
+                <li class="phone-box">
+                    <a href="#" target="_blank" class="phone-img">
+                        <img width="250" height="250" src="http://img16.hqbcdn.com/product/a6/71/a671e67b3331539905c9a2ece6c6424e.250.png" alt="">
+                    </a>
+                    <a href="#" target="_blank" class="phone-name text-over">苹果 iPhone SE 玫瑰金 16GB</a>
+                    <a href="#" target="_blank" class="phone-info text-over">外形小巧a异常强大</a>
+                    <p class="phone-buy"><span class="phone-price"><span class="phone-syb">¥</span>2988</span><a href="#" target="_blank" class="phone-btn font-color1">立即购买</a></p>
+                </li>
+                <li class="phone-box">
+                    <a href="#" target="_blank" class="phone-img">
+                        <img width="250" height="250" src="http://img16.hqbcdn.com/product/a6/71/a671e67b3331539905c9a2ece6c6424e.250.png" alt="">
+                    </a>
+                    <a href="#" target="_blank" class="phone-name text-over">苹果 iPhone SE 玫瑰金 16GB</a>
+                    <a href="#" target="_blank" class="phone-info text-over">外形小巧a异常强大</a>
+                    <p class="phone-buy"><span class="phone-price"><span class="phone-syb">¥</span>2988</span><a href="#" target="_blank" class="phone-btn font-color1">立即购买</a></p>
+                </li>
+                <li class="phone-box">
+                    <a href="#" target="_blank" class="phone-img">
+                        <img width="250" height="250" src="http://img16.hqbcdn.com/product/a6/71/a671e67b3331539905c9a2ece6c6424e.250.png" alt="">
+                    </a>
+                    <a href="#" target="_blank" class="phone-name text-over">苹果 iPhone SE 玫瑰金 16GB</a>
+                    <a href="#" target="_blank" class="phone-info text-over">外形小巧a异常强大</a>
+                    <p class="phone-buy"><span class="phone-price"><span class="phone-syb">¥</span>2988</span><a href="#" target="_blank" class="phone-btn font-color1">立即购买</a></p>
+                </li>
+                <li class="phone-box">
+                    <a href="#" target="_blank" class="phone-img">
+                        <img width="250" height="250" src="http://img16.hqbcdn.com/product/a6/71/a671e67b3331539905c9a2ece6c6424e.250.png" alt="">
+                    </a>
+                    <a href="#" target="_blank" class="phone-name text-over">苹果 iPhone SE 玫瑰金 16GB</a>
+                    <a href="#" target="_blank" class="phone-info text-over">外形小巧a异常强大</a>
+                    <p class="phone-buy"><span class="phone-price"><span class="phone-syb">¥</span>2988</span><a href="#" target="_blank" class="phone-btn font-color1">立即购买</a></p>
+                </li>
+                <li class="phone-box">
+                    <a href="#" target="_blank" class="phone-img">
+                        <img width="250" height="250" src="http://img16.hqbcdn.com/product/a6/71/a671e67b3331539905c9a2ece6c6424e.250.png" alt="">
+                    </a>
+                    <a href="#" target="_blank" class="phone-name text-over">苹果 iPhone SE 玫瑰金 16GB</a>
+                    <a href="#" target="_blank" class="phone-info text-over">外形小巧a异常强大</a>
+                    <p class="phone-buy"><span class="phone-price"><span class="phone-syb">¥</span>2988</span><a href="#" target="_blank" class="phone-btn font-color1">立即购买</a></p>
+                </li>
+                <li class="phone-box">
+                    <a href="#" target="_blank" class="phone-img">
+                        <img width="250" height="250" src="http://img16.hqbcdn.com/product/a6/71/a671e67b3331539905c9a2ece6c6424e.250.png" alt="">
+                    </a>
+                    <a href="#" target="_blank" class="phone-name text-over">苹果 iPhone SE 玫瑰金 16GB</a>
+                    <a href="#" target="_blank" class="phone-info text-over">外形小巧a异常强大</a>
+                    <p class="phone-buy"><span class="phone-price"><span class="phone-syb">¥</span>2988</span><a href="#" target="_blank" class="phone-btn font-color1">立即购买</a></p>
+                </li>
+                <li class="phone-box">
+                    <a href="#" target="_blank" class="phone-img">
+                        <img width="250" height="250" src="http://img16.hqbcdn.com/product/a6/71/a671e67b3331539905c9a2ece6c6424e.250.png" alt="">
+                    </a>
+                    <a href="#" target="_blank" class="phone-name text-over">苹果 iPhone SE 玫瑰金 16GB</a>
+                    <a href="#" target="_blank" class="phone-info text-over">外形小巧a异常强大</a>
+                    <p class="phone-buy"><span class="phone-price"><span class="phone-syb">¥</span>2988</span><a href="#" target="_blank" class="phone-btn font-color1">立即购买</a></p>
+                </li>
+            </ul>
+            <a href="#" class="bottom-top"></a>
+        </div>
+        <a href="#" class="top"></a>
+    </div>
+</div>
+
+<div class="hold"></div>
+<div class="position">
+    <div class="pop">
+        <div class="close"></div>
+       <div class="pop-content">
+       </div>
+    </div>
+    <div class="aui_content" style="padding: 0px;">
+        <div id="verifyPhone">
+            <div class="verifyClose">&times;</div>
+            <div class="OKHQB_logo"></div>
+            <h3>还差一步，就能领券啦！</h3>
+            <ul class="verify_bd">
+                <li><input type="text" placeholder="请输入手机号" id="phoneNum">
+                    <a href="javascript:;" id="sendVeriCode" class="_active">发送验证码</a>
+                    <p class="_iptTip"></p>
+                </li>
+                <li><input type="text" placeholder="验证码" id="veriCode">
+                    <em class="veri_tip"></em>
+                    <p class="time_down">没收到短信？<b>60</b>秒后<a href="javascript:;" class="resend_btn" id="sendCodeAgain">重新发送</a></p>
+                </li>
+                <li>
+                    <a href="javascript:;" id="VerifyAndGetCoupon" class="_active" data-vali-type="mobile">领券</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<script src="js/newPeopleGift.js"></script>
+</body>
+</html>
