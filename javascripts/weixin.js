@@ -19,12 +19,14 @@ define(function(require,exports,module){
 				}
 			});
 			$('#uploadImg').on('click',function(){
-				count:1,
-				sizeType:['original','compressed'],
-				sourceType:['album','camera'],
-				success:function(res){
-					var localIds = res.localIds;
-				}
+				wx.chooseImage({
+					count:1,
+					sizeType:['original','compressed'],
+					sourceType:['album','camera'],
+					success:function(res){
+						var localIds = res.localIds;
+					}
+				});
 			});
 		});
 		
