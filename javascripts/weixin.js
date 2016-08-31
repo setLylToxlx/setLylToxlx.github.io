@@ -5,7 +5,7 @@ define(function(require,exports,module){
 	
 
 	wx.ready(function(){
-		$('#shareWin').on('click',function(){
+		$('#shareWin').click(function(){
 			wx.onMenuShareTimeline({
 				title: '我的标题',
 				link: "https://setlyltoxlx.github.io/818.html",
@@ -18,7 +18,7 @@ define(function(require,exports,module){
 					alert('取消分享！');
 				}
 			});
-			$('#uploadImg').on('click',function(){
+			$('#uploadImg').click(function(){
 				wx.chooseImage({
 					count:1,
 					sizeType:['original','compressed'],
