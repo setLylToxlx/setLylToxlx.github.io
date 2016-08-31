@@ -5,7 +5,7 @@ define(function(require,exports,module){
 	
 
 	wx.ready(function(){
-		wx.onMwnuShareTimeline({
+		wx.onMenuShareTimeline({
 		title:'我的标题',
 		link:"https://setlyltoxlx.github.io/818.html",
 		imgUrl:'https://setlyltoxlx.github.io/setlyltoxlx.github.io/images/apple.png',
