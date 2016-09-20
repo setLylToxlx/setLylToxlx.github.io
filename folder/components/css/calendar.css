@@ -1,0 +1,11 @@
+*{margin:0;padding:0;}
+.calendar-box{width:350px;}
+.calendar-box table thead tr td:hover{cursor:default;}
+.calendar-box table tbody tr td:hover,.calendar-choose span:hover,.calendar-handle span:hover{background-color: #dff0d8;cursor:pointer;}
+.calendar-choose{border:1px solid #ddd;height:31px;}
+.calendar-choose span{height:30px;line-height:30px;}
+.calendar-handle{height:40px;}
+.calendar-handle span{height:40px;line-height:40px;border:1px solid #ddd;}
+.mb20{margin-bottom:0;}
+.calendar-hours{padding-left:25px;}
+.calendar-hours select,.calendar-hours span{display: inline-block;margin:10px 0;height:30px;line-height: 30px;text-align: center;}

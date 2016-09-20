@@ -1,0 +1,97 @@
+body{min-width:320px;max-width:640px;min-height:100%;line-height:1.4;margin:0 auto;font:14px/1.4"Helvetica Neue", Helvetica, STHeiTi, sans-serif, tahoma, arial, \5b8b\4f53;}
+a{text-decoration: none}
+li{list-style: none}
+
+body.lvyou{ font-family:"Microsoft YaHei"; }
+* {  tap-highlight-color: rgba(0,0,0,0);  -webkit-tap-highlight-color: rgba(0,0,0,0);  -ms-tap-highlight-color: rgba(0,0,0,0);-webkit-box-sizing: border-box;-moz-box-sizing: border-box;  -ms-box-sizing: border-box; box-sizing: border-box; padding: 0;margin: 0;  }
+html{font-size:62.5%;-webkit-tap-highlight-color:transparent;height:100%;min-width:320px;overflow-x:hidden}
+img{vertical-align: bottom}
+section.main{ padding-bottom: 4%;background:#88b244;}
+.floor{text-align: center;margin-bottom: 3%;}
+.floor1{background-color: #fee246;padding-bottom: 4%;}
+.floor2,.floor3,.floor4,.floor5{padding-bottom: 2%;;}
+
+/* nav */
+.mod-box {display:-moz-box; display:-webkit-box; display:box;}
+.box-flex {-moz-box-flex:1; -webkit-box-flex:1; -ms-flex:1; box-flex:1;}
+.cg-block{display: block;margin: 0 auto; }
+.cg-nav{padding: 2% 2.5%;width:100%;background-color: #09421c; }
+.cg-nav.fixed{position: fixed;left: 0;top:0;margin:0;width: 100%;z-index: 9999;}
+.cg-nav-list{width: 100%;border-radius:1rem;}
+.cg-nav-list a{display:block;font-size: 1.4rem;text-align:center;color: #6e6e6e;border-right: solid 0.1rem #e8e8e8;margin:0 0;background:  #e8e8e8;padding: .5rem 0;line-height: 1.8rem;}
+.cg-nav-list a p{text-decoration: underline;line-height: 2rem;}
+.cg-nav-list a span{border-bottom: solid .1rem #6e6e6e;padding-bottom: .1rem;}
+.cg-nav-list a:first-child{}
+.cg-nav-list a:last-child{border:none;}
+.cg-nav-list a.active{color: #6e6e6e;background-color:#fee246;}
+.cg-nav-list a.active b{background-position: 0.3rem 1.04rem;}
+/*list-item*/
+.list-item{margin: 0 1%;overflow: hidden;}
+.list-item ul{font-family:"Microsoft YaHei";  margin-top: 2% }
+.list-item ul li h1{font-size: 1.5rem;color:#000000;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;margin: 0 auto 0;font-weight: bold;width: 90%;text-align: center;}
+.list-item ul li p{color: #000000;font-size: 1.3rem;line-height:1.8rem;white-space: nowrap;text-overflow: ellipsis;height: 1.8rem;overflow: hidden;margin: 0 auto;width: 90%;text-align: center;}
+.list-item ul li .list-price-btn{overflow: hidden;height: 2.8rem;line-height: 2.8rem;margin-top: .7rem;}
+.list-item ul li .list-price-btn .list-price{float: left; width: 50%; color: #e64254; }
+.list-item ul li .list-price-btn .list-price b{font-size: 2.0rem;}
+.list-item ul li .list-price-btn .list-btn{float: right;width: 50%;color: #ffffff;background-color: #e64254;text-align: center;font-size: 1.4rem;}
+.list-item ul li .icon {position:absolute;left: 0;top:0;width: 50px;height: 42px;color: #603b03;background: url("../images/icon.png") no-repeat;background-size: cover;padding-top: 2px;font-weight: bold;z-index: 99;font-size:1.25rem;}
+.list-item ul li .icon p {color: #603b03;font-size: 1.3rem;line-height: 1.4rem;height: 1.4rem;text-overflow: ellipsis;overflow: hidden;margin: 0 auto;width: 90%;text-align: center;}
+.list-item img{vertical-align: bottom;padding: 5%;}
+.list-item ul{
+ display: -webkit-box!important;display: -webkit-flex!important;display: -ms-flexbox!important;/*display: flex!important;*/
+ -webkit-flex-wrap: wrap;-ms-flex-wrap: wrap;  flex-wrap: wrap;}
+.list-item ul li{width: 48%;background-color: #fee246;float: left;position: relative;text-align: center;margin: 0 1% 2%;/*margin-bottom: 2% !important;*/}
+.backBottom{cursor: pointer;width: 100%;}
+/**/
+.title{text-align: center;margin: 1.5rem 0;}
+.list-item-con {overflow: hidden;width: 96%;margin: 2% auto 0 auto;background-color: #ffffff;position: relative;}
+.list-item-img{float: left; width: 45%; position: relative;}
+.list-item-intro{float: right;width: 52%;text-align: left;margin-top: 6%;}
+.list-item-intro h1{ font-size: 1.6rem;font-weight: bold; overflow: hidden; white-space: nowrap;text-overflow: ellipsis; color: #444444}
+.list-item-intro p{font-size: 1.4rem;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;color: #000000;}
+.list-item-intro .price-btn{position: absolute; bottom: 5%;width: 44%;right: 5%;}
+.list-item-intro .price{color: #e64254;font-size: 1.4rem;margin-bottom: 2%;}
+.list-item-intro .price span{font-weight: bold;font-size: 1rem;}
+.list-item-intro .price b{font-size: 2.4rem; }
+.list-item-con a{display: block;width: 100%;height: 100%;overflow: hidden;}
+ .btn{background-color: #e64254;color: #ffffff;font-size: 1.6rem;text-align: center;height: 2.5rem;line-height: 2.5rem;font-weight: bold;}
+
+/**/
+.intro-title{color: #ffffff; text-align: center; font-size: 2rem; font-weight: bold; height: 30px; line-height: 30px; }
+.intro-con-icon{padding-right:20px;background: url("../images/slidedown.png") no-repeat right center; background-size: 20px;width: 205px;  margin: 0 auto;  }
+.intro-con-icon.slideUp{background:url("../images/slideup.png") no-repeat right center; background-size: 20px;  }
+.intro{background-color: #178acf;width: 95%;margin: 2%  auto 0;border-radius: .5rem;padding:2.5% 0;}
+.fq-intro { text-align: left;  color: #ffffff;  font-size: 1.3rem;  line-height: 1.5rem;  padding: 4% 1%; display: none}
+.fq-intro h1 {  font-size: 1.7rem;  font-weight: bold;  padding-bottom: 2%;margin-left: .8rem;}
+.fq-intro p {  padding:  0;  margin-left: 2.2rem; line-height: 2.1rem}
+.fq-intro p span{width: 1.8rem; text-align: center; display: inline-block;border-radius: .9rem;height: 1.8rem;line-height: 1.8rem;font-size: 1.4rem;margin-left: -2rem;}
+
+/**/
+.rotate{position: relative;margin-bottom: 18%;padding-top: 4%;text-align: center;}
+.rotate img{padding: 0; vertical-align: bottom}
+.rotate .pointer{position: absolute; display: block;left: 50%; top:50%; margin-left: -17.5%; margin-top: -18%; padding: 0 }
+.maskLayer{display:none;position: fixed; top: 0;left: 0; width: 100% ;height: 100%; background-color: rgba(0,0,0,.8);z-index: 9999}
+.popUp {position: relative;width: 300px;margin: 10% auto;text-align: center;}
+.popUp-con{position: relative;width: 276px; text-align: right;background: #ffffff;padding-right: 10px;margin-left: 10px;background: url("../images/success.png") no-repeat; background-size: cover;padding-bottom: 30%;}
+.popUp-con.failure{background: url("../images/failure.png") no-repeat; background-size: cover;padding-bottom: 60%;}
+.popUp-title{color: #ffffff;text-align: center;font-size: 2.5rem;padding-top: 50%;font-weight: bold}
+.award-main{text-align: center;}
+.award-con h1{color: #ffffff;font-size: 18px;margin-top: 10px; padding: 0 30px;}
+.award-con h1 span{color: #fee246}
+.award-con p{color: #ffffff; font-size: 14px; }
+.award-img{margin: 30px 0 0;}
+.close{position: absolute;top: 34px;right: -15px;color:#ffb310;height: 30px;width: 30px;border-radius: 50%;text-align: center;line-height: 30px;font-size:30px;background-color: #ffffff;}
+.rotate-winner{position: relative;}
+.winner{width:95%;margin: 0 auto;position: relative;bottom:0;padding-bottom: 5%;}
+.winner-con{border-radius: 0 0 .5rem .5rem;position: relative; background-color: #fcffca;   height: 14rem;  width: 90%;  margin: 0 auto;}
+.winner-con ul{ width: 90%;  padding-bottom: 10%;background-color: #fcffca; border-radius: 0 0 .7rem .7rem; position: absolute; left: 5%;overflow: hidden;height: 12rem;}
+.winner-con ul li{background-color:#fcffca;overflow: hidden; padding: 0; height: 3rem;}
+.winner h1{width: 90%;  margin: 0 auto;color: #ff2a00;font-size: 2.5rem; text-align: center;background-color:#fcffca;position: relative;font-weight: bold;padding: 3% 0 1% 0;}
+.winner-title{width: 90%;  margin: 0 auto;background-color:#fcffca;overflow: hidden; z-index: 1;font-weight: bold ;padding: 0 5%;position: relative;}
+.winner-title .winner-name,.winner-title .winner-info{color: #444444;font-size: 1.7rem; font-weight: bold;border:none}
+.winner-name,.winner-info{color: #444444;font-size: 1.4rem; border-bottom:.1rem dashed #535353;width: 50%; height: 3rem; line-height: 3rem;}
+.winner-name{float: left; color: #2a2a2a;text-align:left; /* padding-left: .4rem; */}
+.winner-info {float: right; color: #fe0000;text-align: right;padding-right: .4rem}
+.winner-line{width: 100%;height: 0.9rem;margin: 0 auto 0 -50%;background-color:#ffb400;box-shadow: 2px  2px  2px rgba(0,0,0,.6);position: absolute;left: 50%;top: -.9rem;z-index: 1;}
+.winnerHm{position: absolute;/* top: -10%; */left: 25%;bottom: -100%;z-index: 9;margin: 0 auto 0;}
+.winnerHx{position: absolute; bottom: 0%;right: -5%;}

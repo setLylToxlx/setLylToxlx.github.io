@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>日历</title>
+		<link rel="stylesheet" type="text/css" href="../src/calendar.css">
+	</head>
+	<body>
+		<input type="text" id="calendar" style="width:300px;" value="2015-03-15,2015-03-16"/>
+		<script src="../dist/jquery-1.9.1.min.js"></script>
+		<script src="../src/calendar.js"></script>
+		<input type="text" class="calendar" value="2015-03-14"/>
+		<input type="text" class="calendar2" value="2015-03-18"/>
+		工作日：<input type="text" class="calendar3" value=""/>
+		时间：<input type="text" class="calendar4" /><input type="text" class="calendar5" />
+		时间：<input type="text" class="calendar6" /><input type="text" class="calendar7" />
+		选月份：<input type="text" class="calendar8" /><input type="text" class="calendar8" /><input type="text" class="calendar8" /><input type="text" class="calendar8" /><input type="text" class="calendar8" />
+		只选时分不选秒:<input type="text" class="calendar9" />
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<div style="position:fixed; height:300px;z-index:33;background:gray;width:500px;top:60%;left:40%">
+		位置向上
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+			<input type="text" class="calendar" value="2015-03-14"/>
+		</div>
+		<script>
+		var calendar = new Calendar();
+		calendar.init({
+			target: $('#calendar'),
+			range: ['2015-3-5', '2015-3-25'],
+			multiple: true,
+			maxdays: 5,
+			overdays: function(a) {
+				alert('添加已达上限 ' + a + ' 天');
+			}
+		});
+		$(".calendar").Calendar({toolbar:true,zIndex:999});
+		$(".calendar2").Calendar();
+		$(".calendar3").Calendar({filter:function(time){
+			var date = new Date(time);
+			if(date.getDay()==0||date.getDay()==6){
+				return false;
+			}
+			return true;
+		}});
+		var c_start = $(".calendar4").Calendar({time:true,
+			afterSelected: function(obj, date) {
+				$(obj).blur();
+				c_end.setRange([date, null]);
+			}})[0];
+		var c_end = $(".calendar5").Calendar({time:true,
+			afterSelected: function(obj, date) {
+				$(obj).blur();
+				c_start.setRange([null, date]);
+			}})[0];
+		var c_start2 = $(".calendar6").Calendar({
+			afterSelected: function(obj, date) {
+				$(obj).blur();
+				c_end2.setRange([date, null]);
+			}})[0];
+		var c_end2 = $(".calendar7").Calendar({
+			afterSelected: function(obj, date) {
+				$(obj).blur();
+				c_start2.setRange([null, date]);
+			}})[0];
+		$(".calendar8").Calendar({onlyYM:true,selected:function(){
+			console.log($(this.settings.target))
+		}});
+		$(".calendar9").Calendar({onlyHm:true,time:true});
+		</script>
+	</body>
+</html>

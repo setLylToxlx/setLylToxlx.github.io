@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>组件</title>
+    <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" name="viewport">
+    <link rel="stylesheet" type="text/css" href="/setLylToxlx.github.io/setLylToxlx.github.io/stylesheets/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/calendar.css">
+    <script type="text/javascript" src="/setLylToxlx.github.io/setLylToxlx.github.io/javascripts/jquery.bootstrap.min.js"></script>
+    <script type="text/javascript" src="/setLylToxlx.github.io/setLylToxlx.github.io/javascripts/bootstrap.min.js"></script>
+    <script type="text/javascript" scr='js/calendar.js'></script>
+    <style type="text/css">
+    	/*.container{margin:0 auto;padding:0 20px;max-width:800px;font-size:16px;}*/
+    	.calendar-box{text-align: center;}
+    	.mb20{margin-bottom:0;}
+    </style>
+</head>
+<body>
+	<div class="container">
+		<h2>日历实例</h2>
+		<input type="text" id="calendar" style="width:350px"/>
+		<div class="calendar-box">
+			<div class="calendar-choose">
+				<span class='col-md-2 col-sm-2 col-xs-2'><<</span>
+				<span class='col-md-2 col-sm-2 col-xs-2'><</span>
+				<span class='col-md-2 col-sm-2 col-xs-2'>2016</span>
+				<span class='col-md-2 col-sm-2 col-xs-2'>9</span>
+				<span class='col-md-2 col-sm-2 col-xs-2'>></span>
+				<span class='col-md-2 col-sm-2 col-xs-2'>>></span>
+			</div>
+			<table id="calendar-month" class="table table-bordered mb20">
+				<tbody>
+					<tr>
+						<td>29</td><td>30</td><td>31</td><td>1</td><td>2</td><td>3</td><td>4</td>
+					</tr>
+					<tr>
+						<td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td><td>11</td>
+					</tr>
+					<tr>
+						<td>12</td><td>13</td><td>14</td><td>15</td><td>16</td><td>17</td><td>18</td>
+					</tr>
+					<tr>
+						<td>19</td><td>20</td><td>21</td><td>22</td><td>23</td><td>24</td><td>25</td>
+					</tr>
+					<tr>
+						<td>26</td><td>27</td><td>28</td><td>29</td><td>30</td><td>1</td><td>2</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+	<script type="text/javascript">
+		 var  _random = '';
+		 _random = Math.random().toString().replace('.','');
+		 console.log(_random+":::"+_random.length);
+	</script>
+</body>
+</html>
