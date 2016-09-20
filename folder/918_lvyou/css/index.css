@@ -35,7 +35,7 @@ section.main{ padding-bottom: 4%;background:#88b244;}
 .list-item ul li .list-price-btn .list-price b{font-size: 2.0rem;}
 .list-item ul li .list-price-btn .list-btn{float: right;width: 50%;color: #ffffff;background-color: #e64254;text-align: center;font-size: 1.4rem;}
 .list-item ul li .icon {position:absolute;left: 0;top:0;width: 50px;height: 42px;color: #603b03;background: url("../images/icon.png") no-repeat;background-size: cover;padding-top: 2px;font-weight: bold;z-index: 99;font-size:1.25rem;}
-.list-item ul li .icon p {color: #603b03;font-size: 1.3rem;line-height: 1.4rem;height: 1.4rem;text-overflow: ellipsis;overflow: hidden;margin: 0 auto;width: 90%;text-align: center;}
+.list-item ul li .icon p {color: #603b03;font-size: 1.2rem;line-height: 1.4rem;height: 1.4rem;text-overflow: ellipsis;overflow: hidden;margin: 0 auto;width: 90%;text-align: center;}
 .list-item img{vertical-align: bottom;padding: 5%;}
 .list-item ul{
  display: -webkit-box!important;display: -webkit-flex!important;display: -ms-flexbox!important;/*display: flex!important;*/
