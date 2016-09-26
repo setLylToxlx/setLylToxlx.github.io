@@ -1,0 +1,40 @@
+/*公共*/
+* {
+    tap-highlight-color: rgba(0,0,0,0);
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -ms-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.smartHome{min-width: 320px;max-width: 640px;font-family: "Mircosoft YaHei",微软雅黑;background-color: #efefef;margin:0;padding:0;}
+.text-over{white-space: nowrap;text-overflow:ellipsis;overflow: hidden;padding:0 1.0rem;}
+/*头部*/
+.head img{display:block;vertical-align: bottom;}
+/*导航*/
+.nav-bar{padding: 1.0rem;background-color: #26a0cd;}
+.nav-fix{position:fixed;top:0;left:0;padding: 1.0rem;width:100%;background-color: #26a0cd;z-index:11;}
+.nav-box{margin:0 auto;padding: .3rem .4rem;border:1px solid #ececec;border-radius:.3rem;}
+.nav-box a{display: block;float:left;width:25%;text-align: center;font-size: 2.2rem;line-height:3.0rem;}
+.nav-box .nav-item{color:#fff;border:.2rem solid #efefef;}
+.nav-box .nav-active{color:#ffe71a;border:.2rem solid #ffe71a;}
+.banner a{display: block;}
+/*floor*/
+.title1{margin-top:3.0rem;}
+.phone-box{width:100%;}
+.phone-box .phone-list{margin:0 3.125%;padding-bottom:1.5rem;}
+.phone-box .phone-list li{margin-top:1.5rem;width:48.33%;text-align: center;background-color: #fff;}
+.phone-box .phone-list li a{display: block;}
+.phone-list li:nth-of-type(2n+1){float:left;}
+.phone-list li:nth-of-type(2n+0){float:right;}
+.phone-box .phone-list .phone-img{margin:5% 16.7%;}
+.phone-box .phone-list .phone-name{margin:0 auto;font-size: 2.0rem;color:#000; font-weight: 600;}
+.phone-box .phone-list .phone-info{margin:0 auto;font-size: 1.6rem;color:#000;}
+.phone-box .phone-list .phone-price{margin:0 auto;padding-top:.1rem;font-size: 2.2rem;color:#ec0450;line-height: 2.2rem;}
+.phone-box .phone-list .phone-price span{font-size: 3.7rem;font-weight: 600;line-height: 4.0rem;}
+.phone-box .phone-list .phone-btn{width:100%;font-size: 2.2rem;color:#fff;line-height:3.6rem;background-color: #ec0450;}
+/*top*/
+.top{display:block;height:10.0rem;background: url('../images/top.jpg') no-repeat center;background-color: #49b5dc;}

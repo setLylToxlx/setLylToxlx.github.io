@@ -1,0 +1,89 @@
+.travel{min-width: 1200px;font-family: "Mircosoft YaHei",微软雅黑;background-color: #88b244;}
+/*head*/
+.head1{height:285px;background:url('../images/head1.jpg') no-repeat center;}
+.head2{height:301px;background:url('../images/head2.jpg') no-repeat center;}
+/*抽奖*/
+.lottery{margin:0 auto;width:1200px;height:800px;background-color: #fee246;border:4px dashed #00baff;border-top:0;}
+.lottery-list{float:left;width:490px;height:600px;}
+.lottery-box{float:right;width:710px;height:600px;background: url('../images/turntable.png') no-repeat;background-position:center 20px; }
+.lottery-list .list-head,.lottery-list .list-body{margin:0 auto;width:404px;}
+/*.list-body{margin:0 auto;width:404px;}*/
+.lottery-list .list-head{height:142px;background: url('../images/list-head.png') no-repeat center;}
+.lottery-list .list-body{margin:0 auto;width:330px;}
+.lottery-list .body-head{position:relative;width:330px;}
+.lottery-list .head-top{position:relative;top:2px;left:6px;width:324px;height:14px;background-color: #a7952e;}
+.lottery-list .head-bottom{position:absolute;top:0;width:324px;height:14px;background-color: #ffb400;}
+.lottery-list .body-name{margin:0 auto;padding:0 25px;width:240px;background-color:#fcffca;}
+.lottery-list .list-title{text-align:center;font-size:24px;line-height:50px;font-weight:600;color:#ff2a00;}
+.lottery-list .list-th{width:240px;}
+.lottery-list .list-name,.lottery-list .list-lottery{float:left;width:120px;height:40px;line-height:40px;font-size:18px;font-weight:600;color:#444;}
+/*.lottery-list .list-lottery{float:left;width:145px;font-size:18px;font-weight:600;color:#444;}*/
+.lottery-list .list-box{width:240px;height:328px;padding-bottom:20px;}
+.lottery-list .list-box .show-box{width:240px;height:328px;overflow: hidden;}
+.lottery-list .list-box dl dt{height:40px;line-height:40px;border-bottom:1px dashed #959595;}
+.lottery-list .list-box .list-name{font-size:14px;font-weight:500;color:#2a2a2a;}
+.lottery-list .list-box .list-lottery{font-size:14px;font-weight:500;color:#fe0000;}
+.lottery-box .pointer{margin:196px auto 0;width:224px;height:224px;background: url('../images/pointer1.png') no-repeat center;z-index:9;cursor: pointer;} 
+.lottery-explain{float:left;margin:30px 95px 0;width:1010px;height:180px;}
+.lottery-explain .explain-left{float:left;padding-right:10px;width:30px;white-space:break-all;font-size:28px;line-height:32px;font-weight:600;color:#ac5f0d;border-right:3px solid #ac5f0d ;}
+.lottery-explain .explain-right{padding-left:10px;float:left;width:900px;}
+.lottery-explain .explain-right p{padding-bottom:22px;font-size:16px;line-height:16px;color:#ac5f0d;}
+/*floor1*/
+.title{margin:50px auto 20px;width:1200px;}
+.product-box{padding-left:10px;margin:0 auto;width:1120px;}
+.product-box .product-one{width:1110px;}
+.product-one li{margin:0 10px 10px 0;width:360px;height:225px;float:left;list-style:none;background-color: #fee246;}
+.product-one .product-left{position:relative;float:left;margin:3px;width:214px;background-color: #fff;}
+.product-one .product-left img{padding:17px;}
+.product-one .product-left .tag{position:absolute;top:0;left:0;width:48px;height:48px;background: url('../images/total.png') no-repeat;background-position: 0 -141px;}
+.product-one .product-left .tag p{margin:3px 5px 0 3px;width:40px;font-size:13px;font-weight:600;text-align:center;line-height:16px;color:#603b03;}
+.product-one .product-right{float:right;width:140px;text-align: center;}
+.product-one .product-right .product-info{display:block;padding:30px 10px 20px;height:48px;font-size:18px;line-height: 24px;white-space:break-all;color:#000;text-decoration: none;}
+.product-one .product-right .produce-price{padding-bottom:20px;font-size:14px;color:#e64254;}
+.product-one .product-right .produce-price span{font-size: 25px;font-weight: 600;}
+.product-one .product-right .product-btn{display:block;height:40px;font-size:18px;color:#fff;text-align:center;line-height:40px;background: url('../images/total.png') no-repeat;background-position:4px 0;text-decoration: none;}
+/*floor3*/
+.product-two li{list-style: none;float:left;margin:0 20px 20px 0;height:370px;}
+.product-two .product-panel{width:540px;height:370px;background-color: #fff;}
+.product-two .product-panel a{display:block;}
+.product-two .panel-left{float:left;width:330px;}
+.product-two .panel-left img{margin:20px 0;}
+.product-two .panel-right{float:right;padding-left:20px;width:190px;}
+.product-two .panel-right .panel-name{padding:70px 0 30px;width:170px;height:48px;font-size:18px;line-height:24px;color:#000;text-decoration: none;}
+.product-two .panel-right .panel-info{width:100px;height:48px;font-size:16px;line-height:24px;color:#000;text-decoration: none;}
+.product-two .panel-right .panel-price{padding:20px 0;font-size:18px;line-height:24px;color:#e64254;}
+.product-two .panel-right .panel-price span{font-size: 36px;font-weight: 600;}
+.product-two .panel-right .panel-btn{position:relative;right:-10px;width:190px;height:60px;font-size:24px;line-height:60px;color:#fff;text-align:center;background-color: #e64254;text-decoration: none;}
+.product-two .product-item{padding:0 10px;width:240px;height:370px;background-color: #fee246;text-align: center;}
+.product-two .product-item a{display: block;}
+.product-two .item-img{padding:10px 0;}
+.product-two .item-name,.product-two .item-info{font-size:18px;line-height: 24px;color:#282828;white-space: nowrap;text-overflow:ellipsis;overflow: hidden;text-decoration: none;}
+.product-two .item-info{font-size:16px;}
+.product-two .item-bottom{padding-top:5px;width:240px;}
+.product-two .item-price{padding-top:10px;float:left;width:120px;font-size:18px;line-height:24px;color:#e64254;}
+.product-two .item-price span{font-size: 30px;font-weight: 600;}
+.product-two .item-btn{float:left;width:120px;height:45px;font-size:20px;line-height:45px;color:#fff;background-color: #e64254;text-decoration: none;}
+/*top*/
+.top{position:relative;margin-top:100px;height:125px;background-color: #282828;}
+.top a{display: block;position:absolute;top:-60px;left:50%;margin-left:-206px;}
+/*nav*/
+.nav{position:fixed;top:50%;margin-top:-300px;right:0;width:200px;}
+.nav .nav-head{height:174px;background: url('../images/nav1.png') no-repeat center;}
+.nav .nav-bg{margin:0 auto;width:8px;height:340px;background-color:#c68c00;}
+.nav .nav-list{position:relative;top:-340px;margin:0 auto;width:139px;height:315px;}
+.nav .nav-list div{margin:5px 0;height:40px;font-size:18px;line-height: 40px;text-align: center;cursor:pointer;}
+.nav .nav-list div:hover{color:#e64254;}
+.nav .nav-item{background: url('../images/total.png') no-repeat;background-position:0 -48px ;color:#8c5609;}
+.nav .nav-active{background: url('../images/total.png') no-repeat;background-position: 0 -96px;color:#e64254;}
+/*hold*/
+.hold{display:none;position:fixed;top:0;width:100%;height:100%;background-color: #000;opacity:0.7;filter:alpha(opacity=70);z-index:111;}
+.position{display:none;position:fixed;top:0;left:0;width:100%;height:100%;z-index:112;}
+.popUp{margin:0 auto;position:relative;top:50%;margin-top:-320px;height:555px;width:380px;}
+.popUp1{background: url('../images/pop1.png') no-repeat center;}
+.popUp2{background: url('../images/pop2.png') no-repeat center;}
+.popUp .close{position:absolute;top:45px;right:0;width:43px;height:43px;cursor: pointer;}
+.popUp .text{position:relative;left:14px;top:170px;width:313px;height:270px;text-align: center;}
+.popUp .text .lottery-name{font-size:34px;color:#fff;font-weight: 600;}
+.popUp .text .lottery-info{margin:0 auto;padding:0 10px;font-size:24px;line-height:36px;color:#fff;}
+.popUp .text .lottery-info span{color:#fee246;}
+.popUp .text .lottery-img{padding-top:10px;}
