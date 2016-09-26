@@ -1,3 +1,4 @@
 /*公共*/
 .center{margin:0 auto;width: 800px;min-width:320px;}
-.xlx-list li{cursor:pointer;text-align: center;}
+.xlx-list li{height:20px;cursor:pointer;text-align: center;}
+.xlx-title{display: block;margin-top: 20px;margin-bottom: 10px;font-weight: bold;}
