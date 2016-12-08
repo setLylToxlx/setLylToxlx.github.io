@@ -9,9 +9,10 @@
 .ok_ban_content{background: #fff;}
 .ok_ban_info{padding:.6rem .1rem;text-align: center;line-height: .3rem;font-size: .3rem;color:#555;}
 .ok_reco_title{height:1.42rem;padding:.42rem .3rem;background-color: #fff;}
+
 .ok_rec_tag{padding-right:.14rem;}
 .ok_rec_tag img{display: block;width:.58rem;height:.58rem;border-radius: 50%;overflow: hidden;}
-.ok_play_job,.ok_play_name{font-size: .28rem;height:.28rem;color:#999;line-height: .58rem;}
+.ok_play_job,.ok_play_name{font-size: .28rem;height:.58rem;color:#999;line-height: .58rem;}
 .ok_play_job:after{content: '|';padding-left:.14rem;}
 .ok_rec_add{width:.98rem;height:.48rem;margin-top:.05rem;background: url('../images/comeplay/add.jpg') no-repeat;background-size: .98rem .48rem;}
 .ok_reco_info{padding:.6rem .3rem .32rem;line-height: 1;background-color: #fff;}
