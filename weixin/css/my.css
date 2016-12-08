@@ -1,0 +1,21 @@
+.ok_my .ok_tabbar__see{background-position: 1px -237px;}
+.ok_my .ok_tabbar__self{background-position: 1px -315px;}
+.ok_login_info{margin-bottom:.16rem;padding:.65rem .3rem;border-bottom:.01rem solid #eaeaea;background-color: #fff;}
+.ok_login_img img{width:1.5rem;height:1.5rem;border-radius: 50%;overflow: hidden;}
+.ok_my_name{position:relative;line-height: 1.5rem;display: block;padding-left:.2rem;font-size: .34rem;color:#555;}
+.ok_my_name:after{content:'';display:block;position:absolute;right:0;top:.62rem;width:.14rem;height:.25rem;background-size:.46rem auto;background-repeat: no-repeat;background-image: url('../images/public/comesee.png');background-position:0 -2.896rem;}
+.ok_my .weui-grids{margin-bottom:1.22rem;background-color: #fff;}
+.ok_login_out{padding:.36rem 0;margin-bottom:.1rem;font-size:.26rem;color:#ef4f3e;text-align:center;border-bottom:.01rem solid #eaeaea;background-color: #fff;}
+.ok_my .weui-grid__icon{width:.6rem;height:.6rem;position: relative;}
+.ok_my_cart{background-position: .04rem .06rem;}
+.ok_my_order{background-position: .09rem -.67rem;}
+.ok_my_address{background-position:.04rem -1.42rem;}
+.ok_my_coup{background-position: .05rem -2.20rem;}
+.ok_my_plan{background-position:.07rem -3.06rem;}
+.ok_my_safe{background-position: .06rem -3.89rem;}
+.ok_my_advice{background-size: .59rem auto!important;background-position: 0 -4.78rem;}
+.ok_my_connect{background-position: .06rem -5.79rem;}
+.ok_my_help{background-position: .05rem -6.64rem;}
+.ok_my_icon{display: block;width:.6rem;height:.6rem;background-repeat: no-repeat;background-image: url('../images/my/my.png');background-size: .6rem auto;}
+.ok_my .weui-grid__label{font-size: .26rem;color:#555;}
+.ok_my_num{position:absolute;top:-.05rem;right:-.06rem;width:.28rem;height:.28rem;display: block;background: #ef4f3e;font-style:normal;font-size: .24rem;text-align:center;line-height:.28rem;color:#fff;border-radius:50%;}

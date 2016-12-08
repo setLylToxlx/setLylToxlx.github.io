@@ -1,0 +1,36 @@
+*{
+    tap-highlight-color: transparent;
+    -webkit-tap-highlight-color: transparent;
+    -ms-tap-highlight-color: transparent;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{font-size: 10px;}
+body{margin:0 auto;padding-bottom:53px;min-width: 320px;max-width: 750px;background-color: #f4f4f4;font-family:"Microsoft YaHei","微软雅黑";font-size: 16px;color:#555;}
+.ok_over{white-space: nowrap;text-overflow: ellipsis;overflow: hidden;}
+/*头部*/
+/*内容*/
+img{vertical-align: bottom;}
+.ok_cs_box{width: 100%;}
+.ok_cs_title{padding:3.8% 0;text-align: center;}
+.ok_cs__text{color:#555;vertical-align: middle;font-size:20px;margin-right:4%;}
+.weui-icon-next{width:10px;height:20px;background-size:44px auto;background-repeat: no-repeat;background-image: url('../images/public/comesee.png');background-position: 0 -280px;}
+.ok_list{width:100%;overflow: hidden;}
+.ok_list_item{width:50%;text-align: center;padding-bottom: 4.34%;background-color: #fff;border-bottom:1px solid #eaeaea;}
+.ok_list_item img{padding:0 20.6%;}
+.ok_list .ok_list_item:nth-child(2n){float:right;border-left:1px solid transparent;}
+.ok_list .ok_list_item:nth-child(2n+1){float:left;border-right:1px solid #eaeaea;}
+.ok_cs_info{padding-top:8%;color:#555;font-size: .26rem;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;-webkit-line-clamp: 1;font-weight:400;}
+.ok_cs_price{padding-top:1.4%;color:#f56050;font-size: 0.3rem;}
+/*底部*/
+.ok_tabbar{max-width: 750px;position: fixed;background-color: #fff;}
+.ok_tabbar:before{border-top:0;}
+.ok_tabbar .weui-tabbar__icon{background-size:27px auto;background-repeat: no-repeat;background-image: url('../images/public/comesee.png');}
+.ok_tabbar__see{background-position: 1px -113px;}
+.ok_tabbar__play{background-size: 24px auto!important;background-position: 5px -124px;}
+.ok_tabbar__buy{background-size: 24px auto!important;background-position: 2px -73px;}
+.ok_tabbar__self{background-position: 0 -55px;}
+.ok_tabbar .weui-tabbar__label{color:#424242;}

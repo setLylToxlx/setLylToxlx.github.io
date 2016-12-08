@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" href="../css/weui.css"/>
+    <link rel="stylesheet" href="../css/public.css">
+    <link rel="stylesheet" href="../css/my.css">
+    <title>个人中心</title>
+</head>
+<body>
+<section class="ok_my">
+    <div class="ok_login_info weui-flex">
+        <div class="ok_login_img">
+            <img src="../images/my/portrait.jpg"/>
+        </div>
+        <div class="weui-flex__item">
+            <a href="#" class="ok_my_name">Y.C.H</a>
+        </div>
+    </div>
+    <div class="ok_get_attention weui-flex">
+        <div class="weui-flex__item"></div>
+        <div class="weui-flex__item"></div>
+    </div>
+    <div class="weui-grids">
+        <a href="#" class="weui-grid">
+            <div class="weui-grid__icon">
+                <i class="ok_my_icon ok_my_cart"></i>
+                <i class="ok_my_num">3</i>
+            </div>
+            <p class="weui-grid__label">购物车</p>
+        </a>
+        <a href="#" class="weui-grid">
+            <div class="weui-grid__icon">
+                <i class="ok_my_icon ok_my_order"></i>
+            </div>
+            <p class="weui-grid__label">我的订单</p>
+        </a>
+        <a href="#" class="weui-grid">
+            <div class="weui-grid__icon">
+                <i class="ok_my_icon ok_my_address"></i>
+            </div>
+            <p class="weui-grid__label">地址管理</p>
+        </a>
+        <a href="#" class="weui-grid">
+            <div class="weui-grid__icon">
+                <i class="ok_my_icon ok_my_coup"></i>
+            </div>
+            <p class="weui-grid__label">优惠券</p>
+        </a>
+        <a href="#" class="weui-grid">
+            <div class="weui-grid__icon">
+                <i class="ok_my_icon ok_my_plan"></i>
+            </div>
+            <p class="weui-grid__label">我的活动</p>
+        </a>
+        <a href="#" class="weui-grid">
+            <div class="weui-grid__icon">
+                <i class="ok_my_icon ok_my_safe"></i>
+            </div>
+            <p class="weui-grid__label">账户安全</p>
+        </a>
+        <a href="#" class="weui-grid">
+            <div class="weui-grid__icon">
+                <i class="ok_my_icon ok_my_advice"></i>
+            </div>
+            <p class="weui-grid__label">意见反馈</p>
+        </a>
+        <a href="#" class="weui-grid">
+            <div class="weui-grid__icon">
+                <i class="ok_my_icon ok_my_connect"></i>
+            </div>
+            <p class="weui-grid__label">联系客服</p>
+        </a>
+        <a href="#" class="weui-grid">
+            <div class="weui-grid__icon">
+                <i class="ok_my_icon ok_my_help"></i>
+            </div>
+            <p class="weui-grid__label">帮助中心</p>
+        </a>
+    </div>
+    <div class="ok_login_out">退出登录</div>
+    <div class="weui-tabbar ok_tabbar">
+        <a href="#" class="weui-tabbar__item">
+            <i class="weui-tabbar__icon ok_tabbar__see"></i>
+            <p class="weui-tabbar__label">来看</p>
+        </a>
+        <a href="#" class="weui-tabbar__item">
+            <i class="weui-tabbar__icon ok_tabbar__play"></i>
+            <p class="weui-tabbar__label">来玩</p>
+        </a>
+        <a href="#" class="weui-tabbar__item">
+            <i class="weui-tabbar__icon ok_tabbar__buy"></i>
+            <p class="weui-tabbar__label">来买</p>
+        </a>
+        <a href="#" class="weui-tabbar__item">
+            <i class="weui-tabbar__icon ok_tabbar__self"></i>
+            <p class="weui-tabbar__label">我的</p>
+        </a>
+    </div>
+</section>
+<script src="../../mobile/lib/zepto.min.js"></script>
+<script>
+    var $width = $(window).width()>750?750:$(window).width();
+    $('html').css('fontSize',$width/7.5+'px');
+</script>
+</body>
+</html>

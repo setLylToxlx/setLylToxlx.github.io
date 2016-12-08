@@ -2,11 +2,18 @@ $(function(){
 	var iphoneSync = {
 		init:function(){
 			this.loadImg()
-			$('html').css('font-size','62.5%');
-			iphoneSync.listenScreen();
-			$(window).resize(function(){
-				iphoneSync.listenScreen();
-			});
+			// $('html').css('font-size','62.5%');
+			// iphoneSync.listenScreen();
+			// $(window).resize(function(){
+			// 	iphoneSync.listenScreen();
+			// });
+        var iWidth=document.documentElement.clientWidth;
+        if(iWidth>=640){
+            $('html').css('font-size',10);
+        }else{
+            $('html').css('font-size',iWidth/60);
+        }
+
 			this.nav();
       this.bindEvent();
       this.carouselImg();

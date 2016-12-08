@@ -1,0 +1,32 @@
+.weui-search-bar{background-color: #fff;}
+.weui-search-bar__form{width:74%;border-radius:10px;background-color: #f7f7f7;}
+.weui-search-bar__box{background-color: #f7f7f7;padding-left:50px;}
+.weui-search-bar__box .weui-icon-search{left:15px;top:3px;}
+.weui-search-bar__input{height:30px!important;}
+.weui-icon-search:before{content: '';width:28px;height:28px;background:url('../images/comebuy/comebuy.png');background-size:31px auto;background-position: 0 -31px;}
+.ok_come_buy{padding-bottom: 5%;}
+.ok_come_buy .ok_tabbar__see{background-position: 1px -237px;}
+.ok_come_buy .ok_tabbar__buy{background-position: 3px -172px}
+.ok_come_buy .weui-grids{background-color: #fff;}
+.ok_come_buy .weui-grid__icon{width:56px;height:56px;line-height: 56px;}
+.ok_come_buy .weui-grid__icon img{display: inline-block;height:auto;}
+.ok_come_buy .weui-search-bar:after{border-bottom: 1px solid #eaeaea;}
+.ok_come_buy .weui-grids:before,.ok_come_buy .weui-grid:before,.ok_come_buy .weui-grid:after,.ok_come_buy .weui-grids:after{border:none;}
+.ok_ms{padding-top:7.6% ;background-color: #fff;}
+.ok_ms_title{position: relative;padding-left:19px;font-size: 20px;color:#555;}
+.ok_ms_box{margin-right: 16%;float: right;}
+.ok_ms_title:before{content: '';display:block;position:absolute;top:7px;left:-1px;width:19px;height:25px;background-size: 34px auto;background-repeat: no-repeat;background-image: url('../images/comebuy/comebuy.png');background-position: 0 0;}
+.ok_ms_over{padding-top:38px;font-size:16px;color:#7a7a7a;}
+.ok_ms_count{padding:14px 0;}
+.we_dot_box{display: inline-block;width:4px;}
+.ok_time{display: inline-block;padding:4px 6px;color:#000;border:1px solid #ababab;}
+.mx_dot{display: block;width: 4px;height: 4px;margin:0 1.6%;border-radius: 100%;background-color: #555;}
+.mx_dot_top{position:relative;top:-6px;}
+.ok_ms_img{margin:2.1% 18.6% 19.4% 16%;box-shadow: 8px 8px 10px #d1d1d1;}
+.ok_ms_img{max-width: 110px;}
+.ok_ms_price{padding-top:26px;}
+.ok_ms_price span{padding-right:10px;color:#ff8783;font-weight: 600;}
+.ok_ms_price del{color:#999;}
+.ok_cart_num{display: block;position: absolute;top:-5px;right:-4px;width: 16px;height:16px;font-style: normal;text-align: center;line-height: 16px;color:#fff;border-radius:50%;background-color: #ef4f3e;}
+.weui-search-bar__cancel-btn{position:relative;width:12%;height:auto;display: block;margin-right: 4%;}
+.ok_cart{display:block;position:absolute;right:0;width:38px;height:38px;background:url('../images/public/comesee.png');background-size:40px auto;background-repeat:no-repeat;background-position: 3px -39px;}
