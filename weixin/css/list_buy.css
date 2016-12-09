@@ -1,12 +1,12 @@
-.ok_list_buy .ok_tabbar__see{background-position: .01rem -3.85rem;}
-.ok_list_buy .ok_tabbar__buy{background-position: .03rem -2.94rem;}
+.ok_list_buy .ok_tabbar__see{background-position: 1px -193px;}
+.ok_list_buy .ok_tabbar__buy{background-position: 2px -143px;}
 .ok_list_title{padding:.38rem .1rem;font-size: .28rem;color:#555;text-align: center;font-weight: 400;background-color:#fff;border-bottom: .01rem solid #eaeaea;}
 .ok_list_nav{height:.78rem;background-color: #fff;border-bottom: .01rem solid #eaeaea;}
 .ok_nav_text{font-size:.28rem;color:#888;font-weight: 400;text-align: center;line-height: .78rem;}
 .ok_list_nav .ok_nav_on{color:#333;font-weight: 600;}
 .ok_list_nav .ok_nav_on:after{content:'';display:block;width:.2rem;margin:0 auto;margin-top:-.16rem;border-top:2px solid #333;}
 .ok_list_ban{width:100%;margin-bottom:.2rem;}
-.ok_list_buy{padding-bottom:.5rem;}
+.ok_list_buy{padding-bottom:1.5rem;}
 .ok_list_nav{overflow: hidden;position: relative;}
 .ok_list_nav ul{height:.78rem;width:100%;}
 .ok_list_nav ul,.ok_list_nav li{position: absolute;top:0;}

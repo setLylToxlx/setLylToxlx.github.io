@@ -18,21 +18,21 @@ ul,li{list-style: none;}
 .ok_cs_title{padding:3.8% 0;text-align: center;}
 .ok_cs_title a{display:block;vertical-align: top;}
 .ok_cs__text{color:#555;vertical-align: middle;font-size:.28rem;line-height:.28rem;margin-right:4%;}
-.weui-icon-next{width:.1rem;height:.2rem;background-size:.44rem auto;background-repeat: no-repeat;background-image: url('../images/public/comesee.png');background-position: 0 -2.8rem;}
+.weui-icon-next{width:.1rem;height:.2rem;}
 .ok_list{width:100%;overflow: hidden;}
 .ok_list_item{width:50%;text-align: center;padding-bottom: 4.34%;background-color: #fff;border-bottom:1px solid #eaeaea;}
 .ok_list_item img{padding:0 20.6%;}
 .ok_list .ok_list_item:nth-child(2n){float:right;border-left:1px solid transparent;}
 .ok_list .ok_list_item:nth-child(2n+1){float:left;border-right:1px solid #eaeaea;}
 .ok_cs_info{padding-top:8%;color:#555;font-size: .26rem;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;-webkit-line-clamp: 1;font-weight:400;}
-.ok_cs_price{padding-top:1.4%;color:#f56050;font-size: 0.3rem;}
+.ok_cs_price{padding-top:1.4%;color:#f56050;font-size: .3rem;}
 /*底部*/
 .ok_tabbar{max-width: 750px;position: fixed;background-color: #fff;}
 .ok_tabbar:before{border-top:0;}
-.ok_tabbar .weui-tabbar__icon{width:.44rem;height:.44rem;background-size:.44rem auto;background-repeat: no-repeat;background-image: url('../images/public/comesee.png');}
-.ok_tabbar .weui-tabbar__label{font-size: .18rem;}
-.ok_tabbar__see{background-position: .02rem -1.84rem;}
-.ok_tabbar__play{background-size: .4rem auto!important;background-position: .08rem -2.08rem;}
-.ok_tabbar__buy{background-size: .41rem auto!important;background-position: .02rem -1.27rem;}
-.ok_tabbar__self{background-position: 0 -.89rem;}
+.ok_tabbar .weui-tabbar__icon{width:23px;height:23px;background-size:22px auto;background-repeat: no-repeat;background-image: url('../images/public/comesee.png');}
+.ok_tabbar .weui-tabbar__label{font-size: 14px;}
+.ok_tabbar__see{background-position: 1px -92px;}
+.ok_tabbar__play{background-size: 20px auto!important;background-position: 4px -104px;}
+.ok_tabbar__buy{background-size: 20px auto!important;background-position: 2px -61px;}
+.ok_tabbar__self{background-position: 0 -44px;}
 .ok_tabbar .weui-tabbar__label{color:#424242;}

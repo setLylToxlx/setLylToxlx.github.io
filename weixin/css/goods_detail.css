@@ -1,0 +1,7 @@
+/*头部动画*/
+.ok_slider{position:relative;min-height:1.47rem;overflow: hidden;}
+.ok_slider ul,.ok_slider li,.ok_slider img{position:absolute;top:0;left:0;width:100%;height:100%;}
+.ok_slider img{border:none;}
+.ok_slider .dot{z-index:4;position: absolute;left:0;bottom:.1rem;width:100%;text-align: center;}
+.ok_slider .dot span{display: inline-block;width: 0.1rem;height: 0.1rem;margin-left: 0.1rem;background: #e2e2e2;  border-radius: 100%;}
+.ok_slider .dot span.cur{background-color: #e74c3c;}

@@ -1,5 +1,5 @@
-.ok_come_play .ok_tabbar__see{background-position: .01rem -3.85rem;}
-.ok_come_play .ok_tabbar__play{background-position: .02rem -4.08rem;}
+.ok_come_play .ok_tabbar__see{background-position: 1px -193px;}
+.ok_come_play .ok_tabbar__play{background-position: 1px -204px;}
 .ok_ban_title{padding:.51rem 0 .4rem;text-align: center;}
 .ok_title_first{width:30%;margin:0 auto;position:relative;padding-bottom:.12rem;font-size: .32rem;line-height:0.32rem;color:#ef4f3e;}
 .ok_title_first:before,.ok_title_first:after{content:'';display:block;width:.24rem;height:0;margin:0 .24rem;position:absolute;top:.17rem;border-top:.01rem solid #ef4f3e;}
