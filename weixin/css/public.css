@@ -8,16 +8,17 @@
     padding: 0;
     margin: 0;
 }
-html{font-size: 10px;}
-body{margin:0 auto;padding-bottom:53px;min-width: 320px;max-width: 750px;background-color: #f4f4f4;font-family:"Microsoft YaHei","微软雅黑";font-size: 16px;color:#555;}
+body{margin:0 auto;padding-bottom:53px;min-width: 320px;max-width: 750px;background-color: #f4f4f4;font-family:"Microsoft YaHei","微软雅黑";font-size: .16rem;color:#555;}
 .ok_over{white-space: nowrap;text-overflow: ellipsis;overflow: hidden;}
 /*头部*/
 /*内容*/
-img{vertical-align: bottom;}
+img{vertical-align: middle;}
+ul,li{list-style: none;}
 .ok_cs_box{width: 100%;}
 .ok_cs_title{padding:3.8% 0;text-align: center;}
-.ok_cs__text{color:#555;vertical-align: middle;font-size:20px;margin-right:4%;}
-.weui-icon-next{width:10px;height:20px;background-size:44px auto;background-repeat: no-repeat;background-image: url('../images/public/comesee.png');background-position: 0 -280px;}
+.ok_cs_title a{display:block;vertical-align: top;}
+.ok_cs__text{color:#555;vertical-align: middle;font-size:.28rem;line-height:.28rem;margin-right:4%;}
+.weui-icon-next{width:.1rem;height:.2rem;background-size:.44rem auto;background-repeat: no-repeat;background-image: url('../images/public/comesee.png');background-position: 0 -2.8rem;}
 .ok_list{width:100%;overflow: hidden;}
 .ok_list_item{width:50%;text-align: center;padding-bottom: 4.34%;background-color: #fff;border-bottom:1px solid #eaeaea;}
 .ok_list_item img{padding:0 20.6%;}
@@ -28,9 +29,10 @@ img{vertical-align: bottom;}
 /*底部*/
 .ok_tabbar{max-width: 750px;position: fixed;background-color: #fff;}
 .ok_tabbar:before{border-top:0;}
-.ok_tabbar .weui-tabbar__icon{background-size:27px auto;background-repeat: no-repeat;background-image: url('../images/public/comesee.png');}
-.ok_tabbar__see{background-position: 1px -113px;}
-.ok_tabbar__play{background-size: 24px auto!important;background-position: 5px -124px;}
-.ok_tabbar__buy{background-size: 24px auto!important;background-position: 2px -73px;}
-.ok_tabbar__self{background-position: 0 -55px;}
+.ok_tabbar .weui-tabbar__icon{width:.44rem;height:.44rem;background-size:.44rem auto;background-repeat: no-repeat;background-image: url('../images/public/comesee.png');}
+.ok_tabbar .weui-tabbar__label{font-size: .18rem;}
+.ok_tabbar__see{background-position: .02rem -1.84rem;}
+.ok_tabbar__play{background-size: .4rem auto!important;background-position: .08rem -2.08rem;}
+.ok_tabbar__buy{background-size: .41rem auto!important;background-position: .02rem -1.27rem;}
+.ok_tabbar__self{background-position: 0 -.89rem;}
 .ok_tabbar .weui-tabbar__label{color:#424242;}

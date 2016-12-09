@@ -1,5 +1,5 @@
-.ok_come_play .ok_tabbar__see{background-position: 1px -237px;}
-.ok_come_play .ok_tabbar__play{background-position: 1px -246px;}
+.ok_come_play .ok_tabbar__see{background-position: .01rem -3.85rem;}
+.ok_come_play .ok_tabbar__play{background-position: .02rem -4.08rem;}
 .ok_ban_title{padding:.51rem 0 .4rem;text-align: center;}
 .ok_title_first{width:30%;margin:0 auto;position:relative;padding-bottom:.12rem;font-size: .32rem;line-height:0.32rem;color:#ef4f3e;}
 .ok_title_first:before,.ok_title_first:after{content:'';display:block;width:.24rem;height:0;margin:0 .24rem;position:absolute;top:.17rem;border-top:.01rem solid #ef4f3e;}
@@ -9,10 +9,9 @@
 .ok_ban_content{background: #fff;}
 .ok_ban_info{padding:.6rem .1rem;text-align: center;line-height: .3rem;font-size: .3rem;color:#555;}
 .ok_reco_title{height:1.42rem;padding:.42rem .3rem;background-color: #fff;}
-
 .ok_rec_tag{padding-right:.14rem;}
 .ok_rec_tag img{display: block;width:.58rem;height:.58rem;border-radius: 50%;overflow: hidden;}
-.ok_play_job,.ok_play_name{font-size: .28rem;height:.58rem;color:#999;line-height: .58rem;}
+.ok_play_job,.ok_play_name{font-size: .28rem;height:.28rem;color:#999;line-height: .58rem;}
 .ok_play_job:after{content: '|';padding-left:.14rem;}
 .ok_rec_add{width:.98rem;height:.48rem;margin-top:.05rem;background: url('../images/comeplay/add.jpg') no-repeat;background-size: .98rem .48rem;}
 .ok_reco_info{padding:.6rem .3rem .32rem;line-height: 1;background-color: #fff;}

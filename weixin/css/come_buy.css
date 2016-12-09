@@ -5,8 +5,8 @@
 .weui-search-bar__input{height:30px!important;}
 .weui-icon-search:before{content: '';width:28px;height:28px;background:url('../images/comebuy/comebuy.png');background-size:31px auto;background-position: 0 -31px;}
 .ok_come_buy{padding-bottom: 5%;}
-.ok_come_buy .ok_tabbar__see{background-position: 1px -237px;}
-.ok_come_buy .ok_tabbar__buy{background-position: 3px -172px}
+.ok_come_buy .ok_tabbar__see{background-position: .01rem -3.85rem;}
+.ok_come_buy .ok_tabbar__buy{background-position: .03rem -2.94rem;}
 .ok_come_buy .weui-grids{background-color: #fff;}
 .ok_come_buy .weui-grid__icon{width:56px;height:56px;line-height: 56px;}
 .ok_come_buy .weui-grid__icon img{display: inline-block;height:auto;}
@@ -21,7 +21,8 @@
 .we_dot_box{display: inline-block;width:4px;}
 .ok_time{display: inline-block;padding:4px 6px;color:#000;border:1px solid #ababab;}
 .mx_dot{display: block;width: 4px;height: 4px;margin:0 1.6%;border-radius: 100%;background-color: #555;}
-.mx_dot_top{position:relative;top:-6px;}
+.mx_dot_top{position:relative;top:-3px;}
+.mx_dot_bottom{position:relative;top:1px;}
 .ok_ms_img{margin:2.1% 18.6% 19.4% 16%;box-shadow: 8px 8px 10px #d1d1d1;}
 .ok_ms_img{max-width: 110px;}
 .ok_ms_price{padding-top:26px;}

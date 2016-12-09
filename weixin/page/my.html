@@ -9,8 +9,7 @@
     <link rel="stylesheet" href="../css/my.css">
     <title>个人中心</title>
 </head>
-<body>
-<section class="ok_my">
+<body class="ok_my">
     <div class="ok_login_info weui-flex">
         <div class="ok_login_img">
             <img src="../images/my/portrait.jpg"/>
@@ -82,25 +81,24 @@
     </div>
     <div class="ok_login_out">退出登录</div>
     <div class="weui-tabbar ok_tabbar">
-        <a href="#" class="weui-tabbar__item">
+        <a href="home.html" class="weui-tabbar__item">
             <i class="weui-tabbar__icon ok_tabbar__see"></i>
             <p class="weui-tabbar__label">来看</p>
         </a>
-        <a href="#" class="weui-tabbar__item">
+        <a href="come_play.html" class="weui-tabbar__item">
             <i class="weui-tabbar__icon ok_tabbar__play"></i>
             <p class="weui-tabbar__label">来玩</p>
         </a>
-        <a href="#" class="weui-tabbar__item">
+        <a href="come_buy.html" class="weui-tabbar__item">
             <i class="weui-tabbar__icon ok_tabbar__buy"></i>
             <p class="weui-tabbar__label">来买</p>
         </a>
-        <a href="#" class="weui-tabbar__item">
+        <a href="my.html" class="weui-tabbar__item">
             <i class="weui-tabbar__icon ok_tabbar__self"></i>
             <p class="weui-tabbar__label">我的</p>
         </a>
     </div>
-</section>
-<script src="../zepto.min.js"></script>
+<script src="../../mobile/lib/zepto.min.js"></script>
 <script>
     var $width = $(window).width()>750?750:$(window).width();
     $('html').css('fontSize',$width/7.5+'px');
