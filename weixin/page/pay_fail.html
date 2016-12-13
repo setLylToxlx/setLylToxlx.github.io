@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" href="../css/weui.css"/>
+    <link rel="stylesheet" href="../css/public.css">
+    <link rel="stylesheet" href="../css/pay_result.css">
+    <title>支付失败页</title>
+</head>
+<body>
+<!--地址-->
+<div class="ok_cs_box">
+    <div class="ok_pay_fail">
+        <i class="ok_fail weui-icon-circle">
+            <span class="ok_fail_in"></span>
+        </i>
+        <p class="ok_result_text">支付失败</p>
+        <p class="ok_fail_warn">温馨提示: 提交订单24小时之后将自动取消, 请尽快支付</p>
+    </div>
+    <div class="ok_fail_see">
+        <span class="ok_pay_text">您还需支付: </span>
+        <span class="ok_pay_num">￥5982.00</span>
+    </div>
+</div>
+<div class="ok_cs_box">
+    <div class="ok_order_title">支付方式</div>
+    <div class="ok_pay_content weui-cells">
+        <div class="weui-cell">
+            <div class="weui-cell__hd">
+                <img class="ok_pay_icon" src="../images/order/weixin.png"/>
+            </div>
+            <div class="weui-cell__bd">
+                <a href="javascript:;" class="ok_pay_way weui-icon-success"></a>
+            </div>
+        </div>
+        <div class="weui-cell">
+            <div class="weui-cell__hd">
+                <img class="ok_pay_icon" src="../images/order/alipay.png"/>
+            </div>
+            <div class="weui-cell__bd">
+                <a href="javascript:;" class="ok_pay_way"></a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="ok_pay_keep">继续支付</div>
+<script src="../lib/zepto.min.js"></script>
+<script src="../script/ok_payResult.js"></script>
+</body>
+</html>

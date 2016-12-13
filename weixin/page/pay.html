@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" href="../css/weui.css"/>
+    <link rel="stylesheet" href="../css/public.css">
+    <link rel="stylesheet" href="../css/order.css">
+    <title>支付详情页</title>
+</head>
+<body>
+<!--地址-->
+<div class="ok_cs_box">
+    <div class="ok_order_title">收货地址</div>
+    <div class="ok_address_content weui-cells">
+        <div class="weui-cell">
+            <div class="weui-cell__hd ok_choose_icon"></div>
+            <div class="weui-cell__bd">
+                <p class="ok_user_info">
+                    <span class="ok_user_name">杨先生</span>
+                    <span class="ok_user_phone">18576436886</span>
+                    <span class="ok_user_default">默认</span>
+                </p>
+                <p class="ok_user_address">广东省深圳福田区振中路新亚洲大厦一期6F 华强北在线</p>
+            </div>
+        </div>
+        <!--<div class="weui-cell ok_hide">-->
+            <!--<div class="weui-cell__hd">-->
+            <!--</div>-->
+            <!--<div class="weui-cell__bd">-->
+                <!--<p class="ok_user_info">-->
+                    <!--<span class="ok_user_name">杨先生</span>-->
+                    <!--<span class="ok_user_phone">18576436886</span>-->
+                <!--</p>-->
+                <!--<p class="ok_user_address">广东省深圳福田区振中路新亚洲大厦一期6F 华强北在线</p>-->
+            <!--</div>-->
+        <!--</div>-->
+
+
+    </div>
+</div>
+<!--订单信息-->
+<div class="ok_cs_box">
+    <div class="ok_order_title">订单信息</div>
+    <div class="ok_item_content ok_item_order weui-cells">
+        <div class="weui-cell">
+            <div class="weui-cell__hd">
+                <p class="ok_order_item">订单状态: </p>
+            </div>
+            <div class="weui-cell__bd">
+                <p class="ok_item_info">待支付</p>
+            </div>
+        </div>
+        <div class="weui-cell">
+            <div class="weui-cell__hd">
+                <p class="ok_order_item">支付方式:</p>
+            </div>
+            <div class="weui-cell__bd">
+                <p class="ok_item_info">微信支付</p>
+            </div>
+        </div>
+        <div class="weui-cell">
+            <div class="weui-cell__hd">
+                <p class="ok_order_item">订单编号:</p>
+            </div>
+            <div class="weui-cell__bd">
+                <p class="ok_item_info">1293856425431</p>
+            </div>
+        </div>
+        <div class="weui-cell">
+            <div class="weui-cell__hd">
+                <p class="ok_order_item">下单时间:</p>
+            </div>
+            <div class="weui-cell__bd">
+                <p class="ok_item_info"><span>2016-11-09</span><span>09:23</span></p>
+            </div>
+        </div>
+    </div>
+</div>
+<!--商品信息-->
+<div class="ok_cs_box">
+    <div class="ok_order_title">商品信息</div>
+    <div class="ok_order_content weui-cells">
+        <div class="weui-cell">
+            <div class="weui-cell__hd">
+                <img src="../images/product/order_01.jpg" width="100%"/>
+            </div>
+            <div class="weui-cell__bd">
+                <div class="ok_order_info">
+                    <p class="ok_order_name"><span class="ok_product_name">无线蓝牙耳机</span><i>x</i><span class="ok_gift_num">3</span> </p>
+                    <p class="ok_order_version"><span>红色</span></p>
+                </div>
+                <p class="ok_order_price">￥168.00</p>
+            </div>
+        </div>
+        <div class="weui-cell">
+            <div class="weui-cell__hd">
+                <img src="../images/product/order_01.jpg" width="100%"/>
+            </div>
+            <div class="weui-cell__bd">
+                <div class="ok_order_info">
+                    <p class="ok_order_name"><span class="ok_product_name">无线蓝牙耳机</span><i>x</i><span class="ok_gift_num">3</span> </p>
+                    <p class="ok_order_version"><span>红色</span></p>
+                </div>
+                <p class="ok_order_price">￥168.00</p>
+            </div>
+        </div>
+        <div class="weui-cell">
+            <div class="weui-cell__hd">
+                <img src="../images/product/order_01.jpg" width="100%"/>
+            </div>
+            <div class="weui-cell__bd">
+                <div class="ok_order_info">
+                    <p class="ok_order_name"><span class="ok_product_name">无线蓝牙耳机</span><i>x</i><span class="ok_gift_num">3</span> </p>
+                    <p class="ok_order_version"><span>红色</span></p>
+                </div>
+                <p class="ok_order_price">￥168.00</p>
+            </div>
+        </div>
+    </div>
+    <div class="ok_order_bottom">
+        <span class="ok_order_note_label">备注：</span>
+        <input id="ok_orderNote" class="ok_order_note" type="text" placeholder="此处备注留言"/>
+    </div>
+</div>
+<!--订单总额-->
+<div class="ok_cs_box">
+    <div class="ok_order_title">订单总额</div>
+    <div class="ok_item_content weui-cells">
+        <div class="weui-cell">
+            <div class="weui-cell__hd">
+                <p class="ok_order_item">商品金额</p>
+            </div>
+            <div class="weui-cell__bd">
+                <p class="ok_item_price">￥<span>168.00</span></p>
+            </div>
+        </div>
+        <div class="weui-cell">
+            <div class="weui-cell__hd">
+                <p class="ok_order_item">运费</p>
+            </div>
+            <div class="weui-cell__bd">
+                <p class="ok_item_price">￥<span>0.00</span></p>
+            </div>
+        </div>
+        <div class="weui-cell">
+            <div class="weui-cell__hd">
+                <p class="ok_order_item">优惠券</p>
+            </div>
+            <div class="weui-cell__bd">
+                <p class="ok_item_price">-￥<span id="ok_item_coup">30.01</span></p>
+            </div>
+        </div>
+
+    </div>
+    <div class="ok_order_bottom ok_total_box">
+        <span class="ok_total">合计: </span>
+        <span class="ok_total_price">￥5982.00</span>
+    </div>
+</div>
+<!--底部-->
+<div class="ok_bottom weui-flex">
+    <a href="javascript:;" class="ok_cancel_order weui-flex__item">应付: ￥<span>6012.00</span></a>
+    <a href="" class="ok_pay_order weui-flex__item">确认支付</a>
+</div>
+<script src="../lib/zepto.min.js"></script>
+<script src="../script/ok_pay.js"></script>
+</body>
+</html>

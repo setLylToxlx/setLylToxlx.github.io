@@ -1,0 +1,49 @@
+/*头部*/
+body{padding-bottom:1.48rem;}
+.ok_cart_header{padding:0 .7rem;height:.78rem;line-height:.78rem;background-color: #fff;border-bottom: 1px solid #eaeaea;}
+.ok_header{position:relative;font-size: .28rem;color:#888;text-align: center;}
+.ok_header:before{content:'';display: block;position: absolute;top:.38rem;left:.14rem;width: .06rem;height:.06rem;border-radius:50%;background-color: #ef4f3e;}
+/*内容*/
+.ok_ban_title{height:1.08rem;padding:.4rem 0;text-align: center;}
+.ok_title_first{width:30%;margin:0 auto;position:relative;font-size: .28rem;line-height:.28rem;color:#555;}
+.ok_title_first:before,.ok_title_first:after{content:'';display:block;width:.24rem;height:0;margin:0 .24rem;position:absolute;top:.14rem;border-top:1px solid #ef4f3e;}
+.ok_title_first:before{left:-.24rem;}
+.ok_title_first:after{right:-.24rem;}
+.ok_cart_box{margin:.22rem .3rem 0;}
+.ok_cart_clear{text-align: center;}
+.ok_cart_item{position:relative;height:3rem;padding:.55rem 0 .5rem 0;margin-bottom:.22rem;background-color: #fff;border:1px solid #999;}
+.ok_cart_check{float:left;margin:auto .3rem auto .18rem;width:.4rem;height:.4rem;border: 1px solid #999;border-radius:.05rem;}
+.ok_cart_delete{position: absolute;width:.30rem;height:.30rem;top:.17rem;right:.19rem;}
+.ok_cart_delete img{vertical-align: top;}
+.ok_cart_img{float: left;width:1.5rem;height:1.5rem;position: relative;}
+.ok_cart_out{position: absolute;top:.45rem;left:-.05rem;width:1.6rem;height:.4rem;background-color: #b9b8b7;opacity: .8;line-height:.4rem;text-align:center;font-size:.3rem;color:#fff;}
+.ok_cart_info{float:left;width:4rem;padding-left:.4rem;}
+.ok_cart_name{min-height:.9rem;padding-right:.95rem;margin-bottom:.2rem;width:4.5rem;line-height:1.2;font-size: .26rem;color:#555;word-break:break-all;display: -webkit-box;-webkit-line-clamp: 3; -webkit-box-orient: vertical;overflow: hidden;overflow: hidden;}
+.ok_cart_discount{height:.26rem;line-height: .26rem;vertical-align: top;}
+.ok_discount_coup{display: inline-block;height:.34rem;padding:.02rem;line-height:.26rem;color:#ef4f3e;font-size: .16rem;text-align:center;border:1px solid #ef4f3e;border-radius: .03rem;}
+.ok_discount_desc{color:#ef4f3e;font-size: .16rem;}
+.ok_price_box{height:.46rem;margin-top:.2rem;}
+.ok_price{display:inline-block;font-size: .3rem;color: #f56050;vertical-align: middle;}
+.ok_num_option{display: inline-block;margin-left:.2rem;height:.46rem;line-height: .4rem;text-align: center;border:2px solid #e0e0e0;border-radius:.04rem;vertical-align: middle;}
+.ok_num_asc,.ok_num_desc{display:block;width:.44rem;text-align:center;font-size: .28rem;line-height: .4rem;color:#eaeaea;}
+.ok_num_asc{float:left;}
+.ok_num_desc{float:right;}
+.ok_checked{border:1px solid #ef4f3e;}
+.ok_num{padding:0 .2rem;width:.6rem;}
+.ok_checked .ok_cart_check{background: url('../images/cart/choosesingle.png');background-size: .68rem .7rem;background-position: -.14rem -.14rem;}
+/*底部*/
+.ok_cart_tabbar{position:fixed;bottom:0;max-width:750px;height:.97rem;width:100%;}
+.ok_choose_all{float:left;width:35%;height:.97rem;padding-left:.55rem;line-height:.97rem;background-color: #fff;}
+.ok_account{background-color: #ef4f3e;height:.97rem;padding-left:1.04rem;font-weight: 400;}
+.ok_choose{display: inline-block;margin:auto 0 auto .3rem;width:.31rem;height:.31rem;border:1px solid #e6e6e6;border-radius: 50%;vertical-align: middle;}
+.ok_all{background: url('../images/cart/chooseall.png');background-size:.46rem .46rem;background-position: -.09rem -.13rem;}
+.ok_total_price,.ok_cart_account{display:block;color:#fff;font-size:.3rem;text-align: center;line-height: .97rem;}
+.ok_total_price{width:3rem;float:left;position: relative;}
+.ok_total_price:after{content: '';display: block;position: absolute;top:.31rem;right:0;width:.02rem;height:.4rem;background: url('../images/cart/border.png');background-size: .02rem .4rem;}
+/*弹窗*/
+.ok_dialog{display: none;}
+.weui-dialog__ft:after{border-top: 1px solid #eaeaea;}
+.weui-mask{background: #3b3b3b;opacity: .6;}
+.weui-dialog{width: 70%;font-size: .28rem;}
+.weui-dialog__bd,.weui-dialog__btn_primary{color:#888!important;}
+.weui-dialog__btn_default{color:#fff;background-color: #ef4f3e;}

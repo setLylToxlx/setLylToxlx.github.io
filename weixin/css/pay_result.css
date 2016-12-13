@@ -1,0 +1,24 @@
+body{padding-bottom: 2.28rem;}
+/*成功*/
+.ok_pay_success{padding-bottom:1.06rem;}
+.ok_pay_fail,.ok_pay_success{margin-bottom:.91rem;padding-top:.56rem;text-align: center;background: #fff;}
+.ok_pay_fail{padding-bottom:.4rem;}
+.ok_result{font-size: 1.8rem;color:#01c12d;}
+.ok_result_text{padding-top:.6rem;font-size: .32rem;line-height: .32rem;}
+.ok_reback_see,.ok_fail_see{position:relative;display:block;height:1rem;line-height: 1rem;padding:0 .3rem;color:#555;font-size:.28rem;background: #fff;}
+.ok_reback_see:after{content: " ";display: inline-block;height: .15rem;width: .15rem;border-width: 2px 2px 0 0;border-color: #777;border-style: solid;-webkit-transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);position: absolute;top: 50%;margin-top: -.075rem;right: .4rem;}
+/*失败*/
+.ok_fail{font-size: 1.8rem;color:#01c12d;position: relative;}
+.ok_fail_warn{padding-top:.4rem;font-size: .26rem;color:#555;}
+.ok_fail_in{position: absolute;display: block;width:100%;height:1.8rem;top:0;left:0;}
+.ok_fail_in:before{content:'';position:absolute;top:50%;left:50%;margin-top: -.35rem;margin-left:-.03rem;display:block;width:.06rem;height:.7rem;background: #ef4f3e;}
+.ok_fail_in:after{content:'';position:absolute;top:1.34rem;left:50%;margin-left:-.06rem;display:block;width:.12rem;height:.12rem;border-radius:50%;background: #ef4f3e;}
+.ok_pay_content .weui-cell{padding:.32rem .3rem .34rem .3rem;height:1.1rem;}
+.ok_pay_way{display:block;width:.43rem;height:.43rem;float:right;border:1px solid #e7e7e7;border-radius: 50%;}
+.ok_pay_icon{width:auto;height:.44rem;}
+.weui-icon-success{font-size: .43rem;color:#00b700;}
+.weui-icon-success:before{margin-left:0!important;}
+.ok_order_title{padding-left:.3rem;height:1.08rem;line-height:1.08rem;font-size: .28rem;}
+.weui-cells{margin-top:0;}
+.ok_pay_keep{position:fixed;bottom:0;width:100%;max-width:750px;height:.98rem;line-height: .98rem;text-align: center;font-size: .3rem;color:#fff;background:#ef4f3e;}
+.ok_pay_num{color:#ef4f3e;float:right;}

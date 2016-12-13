@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" href="../css/weui.css"/>
+    <link rel="stylesheet" href="../css/public.css">
+    <link rel="stylesheet" href="../css/cart.css">
+    <title>购物车</title>
+</head>
+<body>
+<header class="ok_cart_header weui-flex">
+    <span class="weui-flex__item ok_header">99元包邮</span>
+    <span class="weui-flex__item ok_header">极速发货</span>
+    <span class="weui-flex__item ok_header">假一赔万</span>
+</header>
+<div class="ok_cart_box">
+    <div class="weui-flex ok_cart_item ok_checked">
+        <div class="ok_cart_check"></div>
+        <div class="ok_info_box weui-flex__item">
+            <div class="ok_cart_img">
+                <div class="ok_cart_out">售罄</div>
+                <img src="../images/product/pro.png" width="100%"/>
+            </div>
+            <div class="ok_cart_info">
+                <p class="ok_cart_name">BOSE/博士 SoundLink® Mini蓝牙 Mini蓝牙 Mini蓝牙扬声器2迷你无线i蓝牙扬声器2迷你无线蓝牙便携音箱</p>
+                <div class="ok_cart_discount">
+                    <span class="ok_discount_coup">优惠券</span>
+                    <span class="ok_discount_desc">立减<span>10</span>元</span>
+                </div>
+                <div class="ok_price_box">
+                    <span class="ok_price">￥4888.11</span>
+                    <span class="ok_num_option">
+                        <a href="javascript:;" class="ok_num_desc">-</a>
+                        <span class="ok_num">1</span>
+                        <a href="javascript:;" class="ok_num_asc">+</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <a href="javascript:;" class="ok_cart_delete">
+            <img src="../images/cart/delete.png" width="100%"/>
+        </a>
+    </div>
+    <div class="weui-flex ok_cart_item">
+        <div class="ok_cart_check"></div>
+        <div class="ok_info_box weui-flex__item">
+            <div class="ok_cart_img">
+                <div class="ok_cart_out">售罄</div>
+                <img src="../images/product/pro.png" width="100%"/>
+            </div>
+            <div class="ok_cart_info">
+                <p class="ok_cart_name">BOSE/博士 SoundLink® Mini蓝牙 Mini蓝牙 Mini蓝牙扬声器2迷你无线i蓝牙扬声器2迷你无线蓝牙便携音箱</p>
+                <div class="ok_cart_discount">
+                    <span class="ok_discount_coup">优惠券</span>
+                    <span class="ok_discount_desc">立减<span>10</span>元</span>
+                </div>
+                <div class="ok_price_box">
+                    <span class="ok_price">￥4888.00</span>
+                    <span class="ok_num_option">
+                        <a href="javascript:;" class="ok_num_desc">-</a>
+                        <span class="ok_num">1</span>
+                        <a href="javascript:;" class="ok_num_asc">+</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <a href="javascript:;" class="ok_cart_delete">
+            <img src="../images/cart/delete.png" width="100%"/>
+        </a>
+    </div>
+</div>
+<div class="ok_cs_box">
+    <div class="ok_ban_title">
+        <p class="ok_title_first">我猜您会喜欢</p>
+    </div>
+    <div class="ok_list">
+        <div class="ok_list_item">
+            <a href="#">
+                <img class="lazy" data-original="../images/product/pro.png" src="../images/public/lazy.png" width="100%"/>
+                <p class="ok_cs_info">杰克投影仪</p>
+                <p class="ok_cs_price">￥328</p>
+            </a>
+        </div>
+        <div class="ok_list_item">
+            <a href="#">
+                <img class="lazy" data-original="../images/product/pro.png" src="../images/public/lazy.png" width="100%"/>
+                <p class="ok_cs_info">杰克投影仪</p>
+                <p class="ok_cs_price">￥328</p>
+            </a>
+        </div>
+        <div class="ok_list_item">
+            <a href="#">
+                <img class="lazy" src="../images/public/lazy.png"  data-original="../images/product/pro.png"width="100%"/>
+                <p class="ok_cs_info">杰克投影仪</p>
+                <p class="ok_cs_price">￥328</p>
+            </a>
+        </div>
+        <div class="ok_list_item">
+            <a href="#">
+                <img class="lazy" data-original="../images/product/pro.png" src="../images/public/lazy.png" width="100%"/>
+                <p class="ok_cs_info">杰克投影仪</p>
+                <p class="ok_cs_price">￥328</p>
+            </a>
+        </div>
+    </div>
+</div>
+<div class="ok_cart_tabbar">
+    <div class="ok_choose_all">
+        <span class="ok_text">全选</span>
+        <span class="ok_choose"></span>
+    </div>
+    <div class="ok_account">
+        <span class="ok_total_price">￥0</span>
+        <span class="ok_cart_account">结算</span>
+    </div>
+</div>
+<div class="ok_dialog" id="ok_dialog">
+    <div class="weui-mask"></div>
+    <div class="weui-dialog">
+        <div class="weui-dialog__bd">删除所选产品</div>
+        <div class="weui-dialog__ft">
+            <a href="javascript:;" class="weui-dialog__btn weui-dialog__btn_default">取消</a>
+            <a href="javascript:;" class="weui-dialog__btn weui-dialog__btn_primary">删除</a>
+        </div>
+    </div>
+</div>
+<script src="../lib/zepto.min.js"></script>
+<script src="../lib/zepto.lazyload.min.js"></script>
+<script src="../script/ok_cart.js"></script>
+</body>
+</html>
